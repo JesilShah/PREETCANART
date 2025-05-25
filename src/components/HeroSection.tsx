@@ -63,7 +63,7 @@ export default HeroSection;*/
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import LOGO from '../assets/images/PREETCANARTLOGO.png';
+import LOGO from '/images/PREETCANARTLOGO.png';
 
 const HeroSection = () => {
   const scrollToCategories = () => {

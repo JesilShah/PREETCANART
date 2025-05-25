@@ -1,7 +1,7 @@
 import React from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 import { motion } from 'framer-motion';
-import ARTIST from '../assets/images/ARTIST.jpg';
+import ARTIST from '/images/ARTIST.jpg';
 
 const AboutArtist = () => {
   const whatsappNumber = '+918329048885'; // Replace with your actual WhatsApp number
