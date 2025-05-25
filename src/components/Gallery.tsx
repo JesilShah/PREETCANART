@@ -210,7 +210,6 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
                   className='w-full h-full object-contain'
                 />
               </div>
-              <p className='text-center p-2 text-sm font-serif'>{image.alt}</p>
             </motion.div>
           ))}
         </div>
