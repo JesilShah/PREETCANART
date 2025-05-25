@@ -50,7 +50,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
               onClick={() => openLightbox(image)}
             >
               {/* This is a placeholder. Replace with actual images }*/
- /*             <div className="h-full w-full bg-[#E8E0D8] flex items-center justify-center">
+/*             <div className="h-full w-full bg-[#E8E0D8] flex items-center justify-center">
                 <p className="text-primary/50 text-sm">Image: {image.id}</p>
               </div>
             </motion.div>
@@ -59,7 +59,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
       )}
 
       {/* Lightbox }*/
- /*     <AnimatePresence>
+/*     <AnimatePresence>
         {selectedImage && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -85,7 +85,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
               
               <div className="bg-white/10 rounded-lg overflow-hidden">
                 {/* Placeholder for actual image }*/
- /*               <div className="aspect-square md:aspect-video w-full bg-[#E8E0D8] flex items-center justify-center">
+/*               <div className="aspect-square md:aspect-video w-full bg-[#E8E0D8] flex items-center justify-center">
                   <p className="text-white">Enlarged Image: {selectedImage.id}</p>
                 </div>
               </div>
@@ -133,13 +133,15 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
   };
 
   const goNext = () => {
-    setSelectedIndex((prev) => (prev! + 1) % images.length);
-    setZoomed(false);
+    setSelectedIndex((prev) =>
+      prev !== null ? (prev + 1) % images.length : 0
+    );
   };
 
   const goPrev = () => {
-    setSelectedIndex((prev) => (prev! - 1 + images.length) % images.length);
-    setZoomed(false);
+    setSelectedIndex((prev) =>
+      prev !== null ? (prev - 1 + images.length) % images.length : 0
+    );
   };
 
   const handleKeyDown = useCallback(
@@ -158,6 +160,17 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
+  useEffect(() => {
+    if (selectedIndex !== null) {
+      const preload = (i: number) => {
+        const img = new Image();
+        img.src = images[i].url;
+      };
+      preload((selectedIndex + 1) % images.length);
+      preload((selectedIndex - 1 + images.length) % images.length);
+    }
+  }, [selectedIndex, images]);
+
   const swipeHandlers = useSwipeable({
     onSwipedLeft: goNext,
     onSwipedRight: goPrev,
@@ -166,18 +179,20 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
   });
 
   return (
-    <div className="py-8">
-      <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">{title}</h2>
+    <div className='py-8'>
+      <h2 className='text-2xl md:text-3xl font-bold text-primary mb-6'>
+        {title}
+      </h2>
 
       {images.length === 0 ? (
-        <div className="bg-beige/50 rounded-lg p-8 text-center">
-          <p className="text-primary/70">No images available.</p>
-          <p className="text-primary/50 text-sm mt-2">
+        <div className='bg-beige/50 rounded-lg p-8 text-center'>
+          <p className='text-primary/70'>No images available.</p>
+          <p className='text-primary/50 text-sm mt-2'>
             Images can be easily added via the gallery data files.
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {images.map((image, index) => (
             <motion.div
               key={image.id}
@@ -185,14 +200,17 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.3 }}
-              className="cursor-pointer overflow-hidden rounded-lg shadow-md bg-white"
+              className='cursor-pointer overflow-hidden rounded-lg shadow-md bg-white'
               onClick={() => openLightbox(index)}
             >
-              <img
-                src={image.url}
-                alt={image.alt}
-                className="w-full h-auto object-contain aspect-square"
-              />
+              <div className='w-full aspect-square flex items-center justify-center bg-white'>
+                <img
+                  src={image.url}
+                  alt={image.alt}
+                  className='w-full h-full object-contain'
+                />
+              </div>
+              <p className='text-center p-2 text-sm font-serif'>{image.alt}</p>
             </motion.div>
           ))}
         </div>
@@ -202,40 +220,54 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
       <AnimatePresence>
         {selectedImage && (
           <motion.div
+            role='dialog'
+            aria-modal='true'
+            aria-label={`Viewing image: ${selectedImage.alt}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+            className='fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4'
             onClick={closeLightbox}
           >
             <motion.div
+              role='dialog'
+              aria-modal='true'
+              aria-label={`Viewing image: ${selectedImage.alt}`}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
               transition={{ type: 'spring', damping: 25 }}
-              className="relative max-w-5xl w-full"
+              className='relative max-w-5xl w-full'
               onClick={(e) => e.stopPropagation()}
               {...swipeHandlers}
             >
               <button
-                className="absolute top-4 right-4 bg-white/20 hover:bg-white/40 rounded-full p-2 transition-colors"
+                aria-label='Close lightbox'
+                className='absolute top-4 right-4 bg-white/20 hover:bg-white/40 rounded-full p-2 transition-colors'
                 onClick={closeLightbox}
               >
-                <X size={24} className="text-white" />
+                <X size={24} className='text-white' />
               </button>
               <div
-                className={`bg-white rounded-lg overflow-hidden cursor-zoom-in ${
-                  zoomed ? 'cursor-zoom-out' : ''
+                className={`bg-white rounded-lg overflow-auto max-h-[80vh] ${
+                  zoomed ? 'cursor-zoom-out' : 'cursor-zoom-in'
                 }`}
                 onClick={() => setZoomed((z) => !z)}
               >
-                <img
-                  src={selectedImage.url}
-                  alt={selectedImage.alt}
-                  className={`w-full h-auto transition-transform duration-300 ${
-                    zoomed ? 'scale-150' : 'scale-100'
-                  } object-contain`}
-                />
+                <div className='min-w-full min-h-full flex justify-center items-center'>
+                  <img
+                    src={selectedImage.url}
+                    alt={selectedImage.alt}
+                    className={`transition-all duration-300 ${
+                      zoomed ? 'scale-150' : 'scale-100'
+                    }`}
+                    style={{
+                      transformOrigin: 'center center',
+                      maxHeight: '80vh',
+                      objectFit: 'contain',
+                    }}
+                  />
+                </div>
               </div>
             </motion.div>
           </motion.div>
