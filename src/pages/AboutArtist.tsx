@@ -1,6 +1,7 @@
 import React from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 import { motion } from 'framer-motion';
+import ARTIST from '/images/ARTIST.jpg';
 
 const AboutArtist = () => {
   const whatsappNumber = '+918329048885'; // Replace with your actual WhatsApp number
@@ -24,10 +25,11 @@ const AboutArtist = () => {
                 {/* Artist photo placeholder */}
                 <div className='h-80 md:h-full bg-lightBrown/20 flex items-center justify-center'>
                   <div className='text-center p-4'>
-                    <p className='text-primary/60'>Artist Photo</p>
-                    <p className='text-xs text-primary/40 mt-1'>
-                      Replace with your photo
-                    </p>
+                    <img
+                      src={ARTIST}
+                      alt={ARTIST}
+                      className='w-full h-full object-contain'
+                    />
                   </div>
                 </div>
               </motion.div>
