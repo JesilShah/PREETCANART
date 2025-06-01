@@ -49,9 +49,12 @@ const AboutArtist = () => {
 
                 <div className='space-y-4 text-primary/80'>
                   <p>
-                    This is where you can add your biography. Tell your story,
-                    share your passion for creating handcrafted rakhis, and
-                    connect with your customers on a personal level.
+                    I am a design graduate with a strong admiration for jewellry. My childhood summers were spent learning 
+                    the art of jewellery designing, making and marketing. I’ve always had an eye for exquisite jewellery 
+                    pieces and loved collecting them. When I started designing and making rakhis the passion to take it up 
+                    a notch helped me built preetcanart .
+
+                    This brand is a sanctuary for my creativity, knowledge and experience all weaved beautifully together .
                   </p>
 
                   <p>
