@@ -73,37 +73,40 @@ const Reviews = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-[#fdf3e7] text-[#4d0000]">
-      <h2 className="text-3xl font-bold mb-6">Past Reviews</h2>
+    <div className='flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-[#fdf3e7] text-[#4d0000]'>
+      <h2 className='text-3xl font-bold mb-6'>Past Reviews</h2>
 
-      {/* Gallery */}
+      {/* Gallery 
       <div className="flex gap-4 mb-8">
         <img src="/review1.jpg" alt="Review 1" className="w-32 h-32 rounded-lg shadow" />
         <img src="/review2.jpg" alt="Review 2" className="w-32 h-32 rounded-lg shadow" />
       </div>
+      */}
 
       <motion.form
         onSubmit={handleSubmit}
-        className="w-full max-w-xl bg-white p-6 rounded-lg shadow-md mb-10"
+        className='w-full max-w-xl bg-white p-6 rounded-lg shadow-md mb-10'
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h3 className="text-2xl font-semibold mb-4">{editingId ? 'Edit Review' : 'Write a Review'}</h3>
+        <h3 className='text-2xl font-semibold mb-4'>
+          {editingId ? 'Edit Review' : 'Write a Review'}
+        </h3>
         <input
-          type="text"
+          type='text'
           value={name}
           onChange={(e) => setName(e.target.value)}
-          placeholder="Your Name"
-          className="w-full border rounded px-3 py-2 mb-4"
+          placeholder='Your Name'
+          className='w-full border rounded px-3 py-2 mb-4'
         />
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
-          placeholder="Your Review"
-          className="w-full border rounded px-3 py-2 mb-4"
+          placeholder='Your Review'
+          className='w-full border rounded px-3 py-2 mb-4'
         />
-        <div className="flex items-center gap-1 mb-4">
+        <div className='flex items-center gap-1 mb-4'>
           <span>Your Rating:</span>
           {[1, 2, 3, 4, 5].map((star) => (
             <span
@@ -118,22 +121,22 @@ const Reviews = () => {
           ))}
         </div>
         <button
-          type="submit"
-          className="bg-[#800020] text-white px-4 py-2 rounded hover:bg-[#990033] transition"
+          type='submit'
+          className='bg-[#800020] text-white px-4 py-2 rounded hover:bg-[#990033] transition'
         >
           {editingId ? 'Update Review' : 'Submit Review'}
         </button>
       </motion.form>
 
       <motion.div
-        className="w-full max-w-2xl"
+        className='w-full max-w-2xl'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <h3 className="text-xl font-semibold mb-4">All Reviews</h3>
+        <h3 className='text-xl font-semibold mb-4'>All Reviews</h3>
         {reviews.length === 0 ? (
-          <p className="text-gray-500">No reviews yet. Be the first!</p>
+          <p className='text-gray-500'>No reviews yet. Be the first!</p>
         ) : (
           reviews.map((review, index) => (
             <motion.div
@@ -146,25 +149,27 @@ const Reviews = () => {
               transition={{ delay: index * 0.1 }}
               ref={index === 0 ? scrollRef : null}
             >
-              <div className="flex justify-between items-center">
-                <h4 className="font-bold text-lg">{review.name}</h4>
-                <span className="text-xs text-gray-500">{review.timestamp}</span>
+              <div className='flex justify-between items-center'>
+                <h4 className='font-bold text-lg'>{review.name}</h4>
+                <span className='text-xs text-gray-500'>
+                  {review.timestamp}
+                </span>
               </div>
-              <p className="text-yellow-500">
+              <p className='text-yellow-500'>
                 {'★'.repeat(review.rating)}
                 {'☆'.repeat(5 - review.rating)}
               </p>
-              <p className="mb-2">{review.content}</p>
-              <div className="flex gap-2 text-sm">
+              <p className='mb-2'>{review.content}</p>
+              <div className='flex gap-2 text-sm'>
                 <button
                   onClick={() => handleEdit(review)}
-                  className="text-blue-600 hover:underline"
+                  className='text-blue-600 hover:underline'
                 >
                   Edit
                 </button>
                 <button
                   onClick={() => handleDelete(review.id)}
-                  className="text-red-600 hover:underline"
+                  className='text-red-600 hover:underline'
                 >
                   Delete
                 </button>

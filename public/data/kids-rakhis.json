@@ -1,5 +1,35 @@
 [
   {
+    "id": "BRO #1 RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/BRO #1 RAKHI.jpeg",
+    "alt": "BRO #1 RAKHI"
+  },
+  {
+    "id": "BRO AND HANUMAN RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/BRO AND HANUMAN RAKHI.jpeg",
+    "alt": "BRO AND HANUMAN RAKHI"
+  },
+  {
+    "id": "BRO RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/BRO RAKHI.jpeg",
+    "alt": "BRO RAKHI"
+  },
+  {
+    "id": "CHOTA BHEEM RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/CHOTA BHEEM RAKHI.jpeg",
+    "alt": "CHOTA BHEEM RAKHI"
+  },
+  {
+    "id": "GANPATI RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/GANPATI RAKHI.jpeg",
+    "alt": "GANPATI RAKHI"
+  },
+  {
     "id": "MINION BRACELET",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/MINION BRACELET.jpg",
@@ -18,9 +48,27 @@
     "alt": "NAME RAKHI OPTIONS"
   },
   {
+    "id": "POO RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/POO RAKHI.jpeg",
+    "alt": "POO RAKHI"
+  },
+  {
     "id": "TOM JERRY RAKHI",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/TOM JERRY RAKHI.jpg",
     "alt": "TOM JERRY RAKHI"
+  },
+  {
+    "id": "UNICORN RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/UNICORN RAKHI.jpeg",
+    "alt": "UNICORN RAKHI"
+  },
+  {
+    "id": "VEERA RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/VEERA RAKHI.jpeg",
+    "alt": "VEERA RAKHI"
   }
 ]

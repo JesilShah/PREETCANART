@@ -3,6 +3,7 @@ export interface Image {
   categoryId: string;
   url: string;
   alt: string;
+  price: string;
 }
 
 import allImageData from './all-images.json';
