@@ -23,7 +23,7 @@ export const categoryData: Category[] = [
     id: 'kids-rakhis',
     name: 'KIDS RAKHIS',
     description:
-      'Elegant rakhis designed specifically for kids, celebrating the special relationship.',
+      'Quirky and playful rakhis designed specifically for kids, celebrating the special relationship.',
   },
   {
     id: 'bracelets',

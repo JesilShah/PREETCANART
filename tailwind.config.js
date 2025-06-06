@@ -16,6 +16,8 @@ export default {
         primary: ['Poppins', 'sans-serif'],
         display: ['Playfair Display', 'serif'],
         brand: ['Cinzel', 'serif'],
+        rubik: ['Rubik', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
       },
       container: {
         center: true,

@@ -108,6 +108,7 @@ interface Image {
   id: string;
   url: string;
   alt: string;
+  price: string;
 }
 
 interface GalleryProps {
@@ -210,6 +211,12 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
                   className='w-full h-full object-contain'
                 />
               </div>
+              <p className='mt-1 text-l font-medium text-[#7B3F00] text-center font-rubik '>
+                {image.id}
+              </p>
+              <p className='mt-1 text-l font-medium text-[#7B3F00] text-center font-rubik'>
+                {image.price}
+              </p>
             </motion.div>
           ))}
         </div>
