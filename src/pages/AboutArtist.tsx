@@ -65,7 +65,7 @@ const AboutArtist = () => {
                     affordable price. We , at Preetcanart offer customisation,
                     understand our customer’s taste and requirement. and bring
                     them premium quality of handmade rakhis at budget friendly
-                    rates. We started with shipping services across india and a
+                    rates. We started with shipping services across India and a
                     few countries so as to give our customers a hassle free
                     shopping experience.
                   </p>
@@ -74,12 +74,7 @@ const AboutArtist = () => {
             </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className='mt-12 bg-beige/50 p-8 rounded-lg'
-          >
+          
 
               <div className='pt-4'>
                 <p className='text-sm text-primary/60 italic'>
@@ -87,7 +82,6 @@ const AboutArtist = () => {
                 </p>
               </div>
             </div>
-          </motion.div>
         </div>
       </div>
 
