@@ -41,6 +41,7 @@ const AboutArtist = () => {
                 className='md:w-1/2 p-8'
               >
                 <h2 className='text-2xl font-bold text-primary mb-3'>
+                  
                   Preet Shah
                 </h2>
                 <p className='text-accent font-medium mb-4'>
