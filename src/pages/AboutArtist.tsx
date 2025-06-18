@@ -70,7 +70,6 @@ const AboutArtist: React.FC = () => {
                     experience.
                   </p>
                 </div>
-              </motion.div>
             </div>
           </div>
 
