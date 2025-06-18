@@ -72,54 +72,47 @@ export default AIHelpCenter; */
 
 // AIHelpCenter.tsx
 import React, { useState } from 'react';
+import axios from 'axios';
 
-const AIHelpCenter: React.FC = () => {
+const AIHelpCenter = () => {
   const [query, setQuery] = useState('');
   const [response, setResponse] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
 
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
-      setResponse('API key missing. Please check your .env file.');
+      setResponse('API key is missing. Please check your .env setup.');
       return;
     }
 
     setIsLoading(true);
-    setResponse('');
 
     try {
-      const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
+      const res = await axios.post(
+        'https://api.openai.com/v1/chat/completions',
         {
-          method: 'POST',
+          model: 'gpt-3.5-turbo',
+          messages: [{ role: 'user', content: query }],
+          temperature: 0.7,
+        },
+        {
           headers: {
             'Content-Type': 'application/json',
+            Authorization: `Bearer ${apiKey}`,
           },
-          body: JSON.stringify({
-            contents: [
-              {
-                parts: [{ text: query }],
-              },
-            ],
-          }),
         }
       );
 
-      const data = await res.json();
-
-      if (data && data.candidates && data.candidates.length > 0) {
-        const text = data.candidates[0].content.parts[0].text;
-        setResponse(text);
-      } else {
-        setResponse('No response received. Please try again.');
-      }
-    } catch (err) {
-      console.error(err);
-      setResponse('Error occurred. Please try again later.');
+      const reply = res.data.choices[0].message.content;
+      setResponse(reply);
+    } catch (error) {
+      console.error(error);
+      setResponse('No response received. Please try again.');
     } finally {
       setIsLoading(false);
     }
@@ -130,20 +123,16 @@ const AIHelpCenter: React.FC = () => {
       <h2 className="text-2xl font-bold mb-6 font-brand">Queries?</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="query" className="block text-sm font-medium mb-2">
-            How can I help you today?
-          </label>
-          <textarea
-            id="query"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            className="w-full px-3 py-2 bg-beige/10 border border-beige/20 rounded-md text-beige placeholder-beige/50 focus:outline-none focus:ring-2 focus:ring-yellow/50"
-            placeholder="Ask me anything about our products..."
-            rows={4}
-          />
-        </div>
-
+        <label className="block text-sm font-medium mb-2">
+          How can I help you today?
+        </label>
+        <textarea
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="w-full px-3 py-2 bg-beige/10 border border-beige/20 rounded-md text-beige placeholder-beige/50 focus:outline-none focus:ring-2 focus:ring-yellow/50"
+          placeholder="Ask me anything about our products..."
+          rows={4}
+        />
         <button
           type="submit"
           disabled={isLoading}
