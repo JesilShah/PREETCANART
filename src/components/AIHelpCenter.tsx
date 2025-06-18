@@ -72,9 +72,8 @@ export default AIHelpCenter; */
 
 // AIHelpCenter.tsx
 import React, { useState } from 'react';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const AIHelpCenter = () => {
+const AIHelpCenter: React.FC = () => {
   const [query, setQuery] = useState('');
   const [response, setResponse] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -84,26 +83,43 @@ const AIHelpCenter = () => {
     if (!query.trim()) return;
 
     const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-
     if (!apiKey) {
-      console.error("API key is missing in .env");
-      setResponse('API key not configured. Please check .env file.');
+      setResponse('API key missing. Please check your .env file.');
       return;
     }
 
     setIsLoading(true);
+    setResponse('');
 
     try {
-      const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            contents: [
+              {
+                parts: [{ text: query }],
+              },
+            ],
+          }),
+        }
+      );
 
-      const result = await model.generateContent(query);
-      const text = await result.response.text();
+      const data = await res.json();
 
-      setResponse(text);
-    } catch (error: any) {
-      console.error('Error from Gemini API:', error);
-      setResponse('Something went wrong. Please try again later.');
+      if (data && data.candidates && data.candidates.length > 0) {
+        const text = data.candidates[0].content.parts[0].text;
+        setResponse(text);
+      } else {
+        setResponse('No response received. Please try again.');
+      }
+    } catch (err) {
+      console.error(err);
+      setResponse('Error occurred. Please try again later.');
     } finally {
       setIsLoading(false);
     }
