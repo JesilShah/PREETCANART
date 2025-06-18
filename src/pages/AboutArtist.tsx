@@ -70,17 +70,13 @@ const AboutArtist: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-12 bg-beige/50 p-8 rounded-lg"
           >
-            <h2 className="text-2xl font-bold text-primary mb-4">
-              
+            <h2 className="text-2xl font-bold text-primary mb-4">  
             </h2>
             
             <div className="space-y-6 text-primary/80">
               <p>
-              
               </p>
-              
               <p>
-              
               </p>
               
               <div className="pt-4">
