@@ -1,9 +1,10 @@
 import React from 'react';
-import WhatsAppButton from '../components/WhatsAppButton';
 import { motion } from 'framer-motion';
+import WhatsAppButton from '../components/WhatsAppButton';
+import ARTIST from '/images/ARTIST.jpg'; // Ensure this is inside /public/images
 
-const AboutArtist = () => {
-  const whatsappNumber = "+918329048885"; // Replace with your actual WhatsApp number
+const AboutArtist: React.FC = () => {
+  const whatsappNumber = '+918329048885';
 
   return (
     <div className="pt-24 pb-16 min-h-screen">
@@ -11,28 +12,28 @@ const AboutArtist = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">
           About the Artist
         </h1>
-        
+
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="md:flex">
-              <motion.div 
+              {/* LEFT IMAGE */}
+              <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 className="md:w-1/2"
               >
-                {/* Artist photo placeholder */}
                 <div className="h-80 md:h-full bg-lightBrown/20 flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <p className="text-primary/60">Artist Photo</p>
-                    <p className="text-xs text-primary/40 mt-1">
-                      Replace with your photo
-                    </p>
-                  </div>
+                  <img
+                    src={ARTIST}
+                    alt="Artist"
+                    className="w-full h-full object-contain p-4"
+                  />
                 </div>
               </motion.div>
-              
-              <motion.div 
+
+              {/* RIGHT TEXT */}
+              <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
