@@ -1,3 +1,10 @@
+Got it! You're right, when you submit a new review, the `reviews` state gets updated, which then causes the hardcoded reviews to disappear because the `reviews.length === 0` condition becomes false.
+
+To fix this, we need to ensure that the hardcoded reviews are always displayed when there are no reviews fetched from the API, and then append the fetched/submitted reviews *after* them.
+
+Here's the updated code that addresses this issue. I've restructured the display logic slightly to combine the hardcoded and dynamic reviews seamlessly.
+
+```javascript
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -87,6 +94,7 @@ const Reviews = () => {
         timestamp: now,
         deviceId,
       };
+      // Add new review to the beginning of the dynamic reviews list
       updated = [newReview, ...reviews];
     }
 
@@ -150,7 +158,7 @@ const Reviews = () => {
     { name: 'Rohan Vora', content: 'Solid and dependable. No issues whatsoever.', rating: 4 },
     { name: 'Ananya Dutt', content: 'Simply amazing! Couldn\'t ask for more.', rating: 5 },
     { name: 'Vedika Sen', content: 'Pretty good overall, just a minor hiccup.', rating: 3 },
-    { name: 'Ibrahim Khan', content: 'Exceptional quality and outstanding customer support.', rating: 5 },
+    { name: 'Jesil Shah', content: 'Exceptional quality and outstanding designs , everything is highly recommendable .', rating: 5 },
     { name: 'Shruti Dave', content: 'Satisfied with the outcome. Would recommend.', rating: 4 },
     { name: 'Aditya Bhalla', content: 'A truly delightful experience. Will be a returning customer.', rating: 5 },
     { name: 'Mitali Rawal', content: 'It met my expectations. Good, but not outstanding.', rating: 3 },
@@ -160,10 +168,17 @@ const Reviews = () => {
   ];
 
   const generateRandomDate = () => {
-    const start = new Date(2023, 0, 1); // January 1, 2023
-    const end = new Date(); // Current date
-    const diff = end.getTime() - start.getTime();
-    const newDate = new Date(start.getTime() + Math.random() * diff);
+    // Generate a date within the last 1.5 years from the current date
+    const endDate = new Date(); // Current date (June 18, 2025)
+    const startDate = new Date(endDate);
+    startDate.setFullYear(endDate.getFullYear() - 1); // Roughly one year ago
+    startDate.setMonth(endDate.getMonth() - 6); // And 6 months prior to that
+
+    const diff = endDate.getTime() - startDate.getTime();
+    const randomTime = startDate.getTime() + Math.random() * diff;
+    const newDate = new Date(randomTime);
+
+    // Format the date for display
     return newDate.toLocaleString('en-IN', {
       day: '2-digit',
       month: 'short',
@@ -174,15 +189,19 @@ const Reviews = () => {
     });
   };
 
+  const allReviewsToDisplay = [...reviews, ...hardcodedReviewsData.map((hr, index) => ({
+    id: `hardcoded-${index}`, // Unique ID for hardcoded reviews
+    name: hr.name,
+    content: hr.content,
+    rating: hr.rating,
+    timestamp: generateRandomDate(), // Randomize date for hardcoded reviews
+    deviceId: 'hardcoded', // A dummy deviceId for hardcoded reviews
+  }))];
+
   const calculateAverageRating = () => {
-    if (reviews.length === 0) {
-      // If no dynamic reviews, calculate from hardcoded reviews
-      const totalRating = hardcodedReviewsData.reduce((sum, review) => sum + review.rating, 0);
-      return (totalRating / hardcodedReviewsData.length).toFixed(1);
-    } else {
-      const totalRating = reviews.reduce((sum, review) => sum + review.rating, 0);
-      return (totalRating / reviews.length).toFixed(1);
-    }
+    if (allReviewsToDisplay.length === 0) return '0.0';
+    const totalRating = allReviewsToDisplay.reduce((sum, review) => sum + review.rating, 0);
+    return (totalRating / allReviewsToDisplay.length).toFixed(1);
   };
 
   return (
@@ -287,36 +306,17 @@ const Reviews = () => {
       {/* 💬 All Reviews */}
       <motion.div className='w-full max-w-2xl' initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h3 className='text-xl font-semibold mb-4'>All Reviews</h3>
-        {reviews.length === 0 ? (
-          <>
-            {hardcodedReviewsData.map((review, index) => (
-              <motion.div
-                key={index}
-                className='bg-white shadow rounded p-4 mb-4'
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.05 }}
-              >
-                <div className='flex justify-between items-center'>
-                  <h4 className='font-bold text-lg'>{review.name}</h4>
-                  <span className='text-xs text-gray-500'>{generateRandomDate()}</span>
-                </div>
-                <p className='text-yellow-500'>
-                  {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
-                </p>
-                <p className='mb-2'>{review.content}</p>
-              </motion.div>
-            ))}
-          </>
+        {allReviewsToDisplay.length === 0 ? (
+          <p>No reviews yet. Be the first to leave one!</p>
         ) : (
-          reviews.map((review, index) => (
+          allReviewsToDisplay.map((review, index) => (
             <motion.div
-              key={review.id}
-              className={`bg-white shadow rounded p-4 mb-4 ${index === 0 ? 'border-l-4 border-yellow-400' : ''}`}
+              key={review.id} // Use review.id as key
+              className={`bg-white shadow rounded p-4 mb-4 ${index === 0 && review.deviceId !== 'hardcoded' ? 'border-l-4 border-yellow-400' : ''}`}
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1 }}
-              ref={index === 0 ? scrollRef : null}
+              ref={index === 0 && review.deviceId !== 'hardcoded' ? scrollRef : null} // Only scroll to the first *dynamic* review
             >
               <div className='flex justify-between items-center'>
                 <h4 className='font-bold text-lg'>{review.name}</h4>
@@ -337,7 +337,7 @@ const Reviews = () => {
                     </button>
                   </>
                 )}
-                {deviceId === ADMIN_KEY && (
+                {deviceId === ADMIN_KEY && review.deviceId !== 'hardcoded' && ( // Admin can only delete dynamic reviews
                   <button onClick={() => handleDelete(review.id)} className='text-red-600 hover:underline'>
                     Admin Delete
                   </button>
@@ -352,3 +352,4 @@ const Reviews = () => {
 };
 
 export default Reviews;
+```
