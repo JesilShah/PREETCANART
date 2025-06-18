@@ -73,7 +73,15 @@ const Reviews = () => {
     e.preventDefault();
     if (!name || !content || rating === 0) return;
 
-    const now = new Date().toLocaleString();
+    // Use the same formatting for dynamic reviews as for hardcoded ones
+    const now = new Date().toLocaleString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+    });
 
     let updatedReviews: Review[];
     if (editingId) {
@@ -154,7 +162,7 @@ const Reviews = () => {
     { name: 'Rohan Vora', content: 'Solid and dependable. No issues whatsoever. It consistently delivers on its promises, making it a trustworthy choice. A truly reliable product/service.', rating: 4 },
     { name: 'Ananya Dutt', content: 'Simply amazing! Couldn\'t ask for more. The product is even better in person than in the pictures, and the customer support was incredibly helpful. A fantastic purchase!', rating: 5 },
     { name: 'Vedika Sen', content: 'Pretty good overall, just a minor hiccup. There was a small delay in shipping, but the quality of the product made up for it. Still, something to consider for future orders.', rating: 3 },
-    { name: 'Jesil', content: 'Exceptional quality and outstanding customer support. They went above and beyond to ensure I was completely satisfied. This is how every business should operate. Highly commendable!', rating: 5 },
+    { name: 'Ibrahim Khan', content: 'Exceptional quality and outstanding customer support. They went above and beyond to ensure I was completely satisfied. This is how every business should operate. Highly commendable!', rating: 5 },
     { name: 'Shruti Dave', content: 'Satisfied with the outcome. Would recommend. It serves its purpose well, and the value for money is reasonable. A good solid option if you\'re looking for functionality.', rating: 4 },
     { name: 'Aditya Bhalla', content: 'A truly delightful experience. Will be a returning customer for sure. The entire interaction, from Browse to receiving, was smooth and enjoyable. Extremely happy!', rating: 5 },
     { name: 'Mitali Rawal', content: 'It met my expectations. Good, but not outstanding. While it gets the job done, there isn\'t anything particularly innovative or striking that sets it apart. It\'s decent.', rating: 3 },
@@ -164,17 +172,17 @@ const Reviews = () => {
   ];
 
   const generateRandomDate = () => {
-    // Generate a date within the last ~1.5 years from the current date
-    const endDate = new Date(); // Current date (e.g., June 18, 2025)
+    // Current date (June 18, 2025, 11:08:08 PM IST)
+    const endDate = new Date(2025, 5, 18, 23, 8, 8); // Year, Month (0-indexed), Day, Hour, Minute, Second
     const startDate = new Date(endDate);
     startDate.setFullYear(endDate.getFullYear() - 1); // Go back one year
-    startDate.setMonth(endDate.getMonth() - 6); // And an additional 6 months for more spread
+    startDate.setMonth(endDate.getMonth() - 6); // And an additional 6 months for more spread (Dec 2023)
 
     const diff = endDate.getTime() - startDate.getTime();
     const randomTime = startDate.getTime() + Math.random() * diff;
     const newDate = new Date(randomTime);
 
-    // Format the date for display
+    // Format the date for display consistently
     return newDate.toLocaleString('en-IN', {
       day: '2-digit',
       month: 'short',
@@ -186,7 +194,7 @@ const Reviews = () => {
   };
 
   // Combine dynamic and hardcoded reviews for display and average calculation
-  // IMPORTANT: Ensure hardcoded reviews have unique IDs so React can render them correctly.
+  // This is defined here so it re-calculates whenever 'reviews' state changes.
   const allReviewsCombined = [
     ...reviews, // Dynamic reviews from JSONBin
     ...hardcodedReviewsData.map((hr, index) => ({ // Hardcoded reviews
