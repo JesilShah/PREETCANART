@@ -70,8 +70,8 @@ export default AIHelpCenter; */
 
 
 
-// AIHelpCenter.tsx
-import React, { useState } from 'react';
+// AIHelpCenter.tsx using openAI api
+/*import React, { useState } from 'react';
 import axios from 'axios';
 
 const AIHelpCenter = () => {
@@ -151,4 +151,84 @@ const AIHelpCenter = () => {
   );
 };
 
+export default AIHelpCenter;*/
+
+// AIHelpCenter.tsx using gemini api
+import React, { useState } from 'react';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+const AIHelpCenter = () => {
+  const [query, setQuery] = useState('');
+  const [response, setResponse] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!query.trim()) return;
+
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
+    if (!apiKey) {
+      console.error("API key is missing in .env");
+      setResponse('API key not configured. Please check .env file.');
+      return;
+    }
+
+    setIsLoading(true);
+
+    try {
+      const genAI = new GoogleGenerativeAI(apiKey);
+      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+      const result = await model.generateContent(query);
+      const text = await result.response.text();
+
+      setResponse(text);
+    } catch (error: any) {
+      console.error('Error from Gemini API:', error);
+      setResponse('Something went wrong. Please try again later.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="bg-maroon p-8 rounded-lg text-beige">
+      <h2 className="text-2xl font-bold mb-6 font-brand">Queries?</h2>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div>
+          <label htmlFor="query" className="block text-sm font-medium mb-2">
+            How can I help you today?
+          </label>
+          <textarea
+            id="query"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="w-full px-3 py-2 bg-beige/10 border border-beige/20 rounded-md text-beige placeholder-beige/50 focus:outline-none focus:ring-2 focus:ring-yellow/50"
+            placeholder="Ask me anything about our products..."
+            rows={4}
+          />
+        </div>
+
+        <button
+          type="submit"
+          disabled={isLoading}
+          className="bg-yellow hover:bg-yellow/90 text-maroon font-medium py-2 px-4 rounded-md transition-colors disabled:opacity-50"
+        >
+          {isLoading ? 'Thinking...' : 'Ask'}
+        </button>
+      </form>
+
+      {response && (
+        <div className="mt-6 p-4 bg-beige/10 rounded-lg">
+          <p className="text-beige/90 whitespace-pre-wrap">{response}</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
 export default AIHelpCenter;
+
+
