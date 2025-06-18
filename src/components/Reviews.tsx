@@ -147,14 +147,14 @@ const Reviews = () => {
     { name: 'Manav Jain', content: 'Decent service, but there\'s always room for improvement. The initial response time was a bit slow, but once they got going, things progressed smoothly. Satisfied, but not amazed.', rating: 3 },
     { name: 'Ritika Bhatt', content: 'Excellent communication and prompt delivery. From order placement to receiving the item, everything was seamless. The updates were timely and reassuring. Thank you!', rating: 5 },
     { name: 'Neha Bansal', content: 'Very happy with my purchase. The item arrived in perfect condition and earlier than expected. I\'m already telling all my friends about this amazing find. Will spread the word.', rating: 4 },
-    { name: 'Harsh Trivedi', content: 'The best I\'ve encountered in a long time. The quality is unmatched, and the entire transaction was flawless. It\'s rare to find such dedication to excellence. Truly exceptional!', rating: 5 },
+    { name: 'Harsh Trivedi', content: 'The best I\'ve encountered in a long time. Flawless! The quality is unmatched, and the entire transaction was seamless from start to finish. Truly exceptional!', rating: 5 },
     { name: 'Tanvi Bhavsar', content: 'Could be better, but overall an okay experience. There were some minor issues with the setup, which required a bit of troubleshooting. It eventually worked out, but took some effort.', rating: 3 },
     { name: 'Om Sharma', content: 'Highly professional and efficient. A joy to work with from start to finish. Their expertise shines through in every detail, making the entire process stress-free. Fantastic!', rating: 5 },
     { name: 'Megha Tiwari', content: 'Definitely worth the investment. The results speak for themselves, and I\'m thrilled with the outcome. It\'s a reliable and effective solution. Great results!', rating: 4 },
     { name: 'Rohan Vora', content: 'Solid and dependable. No issues whatsoever. It consistently delivers on its promises, making it a trustworthy choice. A truly reliable product/service.', rating: 4 },
     { name: 'Ananya Dutt', content: 'Simply amazing! Couldn\'t ask for more. The product is even better in person than in the pictures, and the customer support was incredibly helpful. A fantastic purchase!', rating: 5 },
     { name: 'Vedika Sen', content: 'Pretty good overall, just a minor hiccup. There was a small delay in shipping, but the quality of the product made up for it. Still, something to consider for future orders.', rating: 3 },
-    { name: 'Ibrahim Khan', content: 'Exceptional quality and outstanding customer support. They went above and beyond to ensure I was completely satisfied. This is how every business should operate. Highly commendable!', rating: 5 },
+    { name: 'Jesil', content: 'Exceptional quality and outstanding customer support. They went above and beyond to ensure I was completely satisfied. This is how every business should operate. Highly commendable!', rating: 5 },
     { name: 'Shruti Dave', content: 'Satisfied with the outcome. Would recommend. It serves its purpose well, and the value for money is reasonable. A good solid option if you\'re looking for functionality.', rating: 4 },
     { name: 'Aditya Bhalla', content: 'A truly delightful experience. Will be a returning customer for sure. The entire interaction, from Browse to receiving, was smooth and enjoyable. Extremely happy!', rating: 5 },
     { name: 'Mitali Rawal', content: 'It met my expectations. Good, but not outstanding. While it gets the job done, there isn\'t anything particularly innovative or striking that sets it apart. It\'s decent.', rating: 3 },
@@ -185,10 +185,12 @@ const Reviews = () => {
     });
   };
 
+  // Combine dynamic and hardcoded reviews for display and average calculation
+  // IMPORTANT: Ensure hardcoded reviews have unique IDs so React can render them correctly.
   const allReviewsCombined = [
     ...reviews, // Dynamic reviews from JSONBin
     ...hardcodedReviewsData.map((hr, index) => ({ // Hardcoded reviews
-      id: `hardcoded-${index}`, // Unique ID for hardcoded reviews
+      id: `hardcoded-${index}-${hr.name.replace(/\s/g, '')}`, // More robust unique ID for hardcoded reviews
       name: hr.name,
       content: hr.content,
       rating: hr.rating,
@@ -327,7 +329,7 @@ const Reviews = () => {
               </p>
               <p className='mb-2'>{review.content}</p>
               <div className='flex gap-2 text-sm'>
-                {/* Only show edit/delete buttons for reviews owned by the current device */}
+                {/* Only show edit/delete buttons for reviews owned by the current device and not hardcoded ones */}
                 {review.deviceId === deviceId && review.deviceId !== 'hardcoded' && (
                   <>
                     <button onClick={() => handleEdit(review)} className='text-blue-600 hover:underline'>
