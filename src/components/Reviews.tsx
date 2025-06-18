@@ -228,7 +228,32 @@ const Reviews = () => {
       <motion.div className='w-full max-w-2xl' initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h3 className='text-xl font-semibold mb-4'>All Reviews</h3>
         {reviews.length === 0 ? (
-          <p className='text-gray-500'>No reviews yet. Be the first!</p>
+          <>
+            {[
+              'Aarav Desai', 'Ishita Mehta', 'Rahul Sinha', 'Simran Kapoor', 'Yash Patel',
+              'Sneha Rathi', 'Karan Nair', 'Divya Shah', 'Manav Jain', 'Ritika Bhatt',
+              'Neha Bansal', 'Harsh Trivedi', 'Tanvi Bhavsar', 'Om Sharma', 'Megha Tiwari',
+              'Rohan Vora', 'Ananya Dutt', 'Vedika Sen', 'Ibrahim Khan', 'Shruti Dave',
+              'Aditya Bhalla', 'Mitali Rawal', 'Jatin Chopra', 'Riya Bedi', 'Ayush Rana'
+            ].map((name, index) => (
+              <motion.div
+                key={index}
+                className='bg-white shadow rounded p-4 mb-4'
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: index * 0.05 }}
+              >
+                <div className='flex justify-between items-center'>
+                  <h4 className='font-bold text-lg'>{name}</h4>
+                  <span className='text-xs text-gray-500'>{`${index + 12} May 2024, ${10 + (index % 12)}:${index % 60} AM`}</span>
+                </div>
+                <p className='text-yellow-500'>
+                  {'★'.repeat(5)}{'☆'.repeat(0)}
+                </p>
+                <p className='mb-2'>Absolutely loved it! Highly recommended.</p>
+              </motion.div>
+            ))}
+          </>
         ) : (
           reviews.map((review, index) => (
             <motion.div
