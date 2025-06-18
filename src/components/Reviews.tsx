@@ -1,10 +1,3 @@
-Got it! You're right, when you submit a new review, the `reviews` state gets updated, which then causes the hardcoded reviews to disappear because the `reviews.length === 0` condition becomes false.
-
-To fix this, we need to ensure that the hardcoded reviews are always displayed when there are no reviews fetched from the API, and then append the fetched/submitted reviews *after* them.
-
-Here's the updated code that addresses this issue. I've restructured the display logic slightly to combine the hardcoded and dynamic reviews seamlessly.
-
-```javascript
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
