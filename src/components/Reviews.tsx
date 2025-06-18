@@ -130,9 +130,69 @@ const Reviews = () => {
     setSelectedImage(null);
   };
 
+  // --- Hardcoded Reviews Data ---
+  const hardcodedReviewsData = [
+    { name: 'Aarav Desai', content: 'Fantastic experience from start to finish! Highly recommend to everyone.', rating: 5 },
+    { name: 'Ishita Mehta', content: 'Great service and amazing results. Will definitely be coming back.', rating: 4 },
+    { name: 'Rahul Sinha', content: 'Very satisfied with the professionalism and quality. Top-notch!', rating: 5 },
+    { name: 'Simran Kapoor', content: 'A truly pleasant surprise! Exceeded my expectations.', rating: 4 },
+    { name: 'Yash Patel', content: 'Good value for money. The team was very helpful.', rating: 3 },
+    { name: 'Sneha Rathi', content: 'Impressed by the attention to detail and friendly staff.', rating: 5 },
+    { name: 'Karan Nair', content: 'A solid choice, no complaints here. Would use again.', rating: 4 },
+    { name: 'Divya Shah', content: 'Absolutely loved it! Highly recommended.', rating: 5 },
+    { name: 'Manav Jain', content: 'Decent service, but there\'s always room for improvement.', rating: 3 },
+    { name: 'Ritika Bhatt', content: 'Excellent communication and prompt delivery. Thank you!', rating: 5 },
+    { name: 'Neha Bansal', content: 'Very happy with my purchase. Will spread the word.', rating: 4 },
+    { name: 'Harsh Trivedi', content: 'The best I\'ve encountered in a long time. Flawless!', rating: 5 },
+    { name: 'Tanvi Bhavsar', content: 'Could be better, but overall an okay experience.', rating: 3 },
+    { name: 'Om Sharma', content: 'Highly professional and efficient. A joy to work with.', rating: 5 },
+    { name: 'Megha Tiwari', content: 'Definitely worth the investment. Great results.', rating: 4 },
+    { name: 'Rohan Vora', content: 'Solid and dependable. No issues whatsoever.', rating: 4 },
+    { name: 'Ananya Dutt', content: 'Simply amazing! Couldn\'t ask for more.', rating: 5 },
+    { name: 'Vedika Sen', content: 'Pretty good overall, just a minor hiccup.', rating: 3 },
+    { name: 'Ibrahim Khan', content: 'Exceptional quality and outstanding customer support.', rating: 5 },
+    { name: 'Shruti Dave', content: 'Satisfied with the outcome. Would recommend.', rating: 4 },
+    { name: 'Aditya Bhalla', content: 'A truly delightful experience. Will be a returning customer.', rating: 5 },
+    { name: 'Mitali Rawal', content: 'It met my expectations. Good, but not outstanding.', rating: 3 },
+    { name: 'Jatin Chopra', content: 'Superb! Every aspect was handled perfectly.', rating: 5 },
+    { name: 'Riya Bedi', content: 'Came as advertised. No surprises, which is good.', rating: 4 },
+    { name: 'Ayush Rana', content: 'A decent option if you\'re looking for something reliable.', rating: 3 },
+  ];
+
+  const generateRandomDate = () => {
+    const start = new Date(2023, 0, 1); // January 1, 2023
+    const end = new Date(); // Current date
+    const diff = end.getTime() - start.getTime();
+    const newDate = new Date(start.getTime() + Math.random() * diff);
+    return newDate.toLocaleString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+    });
+  };
+
+  const calculateAverageRating = () => {
+    if (reviews.length === 0) {
+      // If no dynamic reviews, calculate from hardcoded reviews
+      const totalRating = hardcodedReviewsData.reduce((sum, review) => sum + review.rating, 0);
+      return (totalRating / hardcodedReviewsData.length).toFixed(1);
+    } else {
+      const totalRating = reviews.reduce((sum, review) => sum + review.rating, 0);
+      return (totalRating / reviews.length).toFixed(1);
+    }
+  };
+
   return (
     <div className='flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-[#fdf3e7] text-[#4d0000]'>
       <h2 className='text-3xl font-bold mb-6'>Past Reviews</h2>
+
+      {/* Average Rating Display */}
+      <div className="mb-6 text-xl font-semibold">
+        Average Rating: <span className="text-yellow-500">{calculateAverageRating()} ★</span>
+      </div>
 
       {/* ✅ Past Year Review Photos */}
       <div className="flex gap-4 mb-8 flex-wrap justify-center">
@@ -229,13 +289,7 @@ const Reviews = () => {
         <h3 className='text-xl font-semibold mb-4'>All Reviews</h3>
         {reviews.length === 0 ? (
           <>
-            {[
-              'Aarav Desai', 'Ishita Mehta', 'Rahul Sinha', 'Simran Kapoor', 'Yash Patel',
-              'Sneha Rathi', 'Karan Nair', 'Divya Shah', 'Manav Jain', 'Ritika Bhatt',
-              'Neha Bansal', 'Harsh Trivedi', 'Tanvi Bhavsar', 'Om Sharma', 'Megha Tiwari',
-              'Rohan Vora', 'Ananya Dutt', 'Vedika Sen', 'Ibrahim Khan', 'Shruti Dave',
-              'Aditya Bhalla', 'Mitali Rawal', 'Jatin Chopra', 'Riya Bedi', 'Ayush Rana'
-            ].map((name, index) => (
+            {hardcodedReviewsData.map((review, index) => (
               <motion.div
                 key={index}
                 className='bg-white shadow rounded p-4 mb-4'
@@ -244,13 +298,13 @@ const Reviews = () => {
                 transition={{ delay: index * 0.05 }}
               >
                 <div className='flex justify-between items-center'>
-                  <h4 className='font-bold text-lg'>{name}</h4>
-                  <span className='text-xs text-gray-500'>{`${index + 12} May 2024, ${10 + (index % 12)}:${index % 60} AM`}</span>
+                  <h4 className='font-bold text-lg'>{review.name}</h4>
+                  <span className='text-xs text-gray-500'>{generateRandomDate()}</span>
                 </div>
                 <p className='text-yellow-500'>
-                  {'★'.repeat(5)}{'☆'.repeat(0)}
+                  {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
                 </p>
-                <p className='mb-2'>Absolutely loved it! Highly recommended.</p>
+                <p className='mb-2'>{review.content}</p>
               </motion.div>
             ))}
           </>
