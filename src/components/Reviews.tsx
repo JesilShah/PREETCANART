@@ -15,7 +15,7 @@ const JSONBIN_API_KEY = import.meta.env.VITE_JSONBIN_API_KEY;
 const JSONBIN_BIN_ID = import.meta.env.VITE_JSONBIN_BIN_ID;
 const ADMIN_KEY = 'admin-key-123';
 
-const UNCIVIL_REVIEW_IDS = ['16870123', 'badid-2002']; // ➕ Add any bad review ids here
+const UNCIVIL_REVIEW_IDS = ['16870123', 'badid-2002'];
 
 const Reviews = () => {
   const [name, setName] = useState('');
@@ -128,10 +128,30 @@ const Reviews = () => {
 
       {/* ✅ Past Year Review Photos */}
       <div className="flex gap-4 mb-8 flex-wrap justify-center">
-        <img src="/review1.jpg" alt="Review 1" className="w-32 h-32 rounded-lg shadow" />
-        <img src="/review2.jpg" alt="Review 2" className="w-32 h-32 rounded-lg shadow" />
-        <img src="/review3.jpg" alt="Review 3" className="w-32 h-32 rounded-lg shadow" />
-        <img src="/review4.jpg" alt="Review 4" className="w-32 h-32 rounded-lg shadow" />
+        <img src="/images/reviews/Review1.jpg" alt="Review 1" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review2.jpg" alt="Review 2" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review3.jpg" alt="Review 3" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review4.jpg" alt="Review 4" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review5.jpg" alt="Review 5" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review6.jpg" alt="Review 6" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review7.jpg" alt="Review 7" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review8.jpg" alt="Review 8" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review9.jpg" alt="Review 9" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review10.jpg" alt="Review 10" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review11.jpg" alt="Review 11" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review12.jpg" alt="Review 12" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review13.jpg" alt="Review 13" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review14.jpg" alt="Review 14" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review15.jpg" alt="Review 15" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review16.jpg" alt="Review 16" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review17.jpg" alt="Review 17" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review18.jpg" alt="Review 18" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review19.jpg" alt="Review 19" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review20.jpg" alt="Review 20" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review21.jpg" alt="Review 21" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review22.jpg" alt="Review 22" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review23.jpg" alt="Review 23" className="w-32 h-32 object-cover rounded-lg shadow" />
+        <img src="/images/reviews/Review24.jpg" alt="Review 24" className="w-32 h-32 object-cover rounded-lg shadow" />
       </div>
 
       {/* ⭐ Write or Edit Review */}
@@ -164,9 +184,7 @@ const Reviews = () => {
             <span
               key={star}
               onClick={() => setRating(star)}
-              className={`cursor-pointer text-2xl ${
-                star <= rating ? 'text-yellow-500' : 'text-gray-300'
-              }`}
+              className={`cursor-pointer text-2xl ${star <= rating ? 'text-yellow-500' : 'text-gray-300'}`}
             >
               ★
             </span>
@@ -189,9 +207,7 @@ const Reviews = () => {
           reviews.map((review, index) => (
             <motion.div
               key={review.id}
-              className={`bg-white shadow rounded p-4 mb-4 ${
-                index === 0 ? 'border-l-4 border-yellow-400' : ''
-              }`}
+              className={`bg-white shadow rounded p-4 mb-4 ${index === 0 ? 'border-l-4 border-yellow-400' : ''}`}
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1 }}
