@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface Review {
   id: string;
@@ -14,7 +14,6 @@ interface Review {
 const JSONBIN_API_KEY = import.meta.env.VITE_JSONBIN_API_KEY;
 const JSONBIN_BIN_ID = import.meta.env.VITE_JSONBIN_BIN_ID;
 const ADMIN_KEY = 'admin-key-123';
-
 const UNCIVIL_REVIEW_IDS = ['16870123', 'badid-2002'];
 
 const Reviews = () => {
@@ -23,6 +22,7 @@ const Reviews = () => {
   const [rating, setRating] = useState(0);
   const [reviews, setReviews] = useState<Review[]>([]);
   const [editingId, setEditingId] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const deviceId = localStorage.getItem('deviceId') || (() => {
@@ -122,39 +122,65 @@ const Reviews = () => {
     setEditingId(review.id);
   };
 
+  const openImage = (src: string) => {
+    setSelectedImage(src);
+  };
+
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className='flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-[#fdf3e7] text-[#4d0000]'>
       <h2 className='text-3xl font-bold mb-6'>Past Reviews</h2>
 
       {/* ✅ Past Year Review Photos */}
       <div className="flex gap-4 mb-8 flex-wrap justify-center">
-        <img src="/images/reviews/Review1.jpg" alt="Review 1" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review2.jpg" alt="Review 2" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review3.jpg" alt="Review 3" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review4.jpg" alt="Review 4" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review5.jpg" alt="Review 5" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review6.jpg" alt="Review 6" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review7.jpg" alt="Review 7" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review8.jpg" alt="Review 8" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review9.jpg" alt="Review 9" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review10.jpg" alt="Review 10" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review11.jpg" alt="Review 11" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review12.jpg" alt="Review 12" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review13.jpg" alt="Review 13" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review14.jpg" alt="Review 14" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review15.jpg" alt="Review 15" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review16.jpg" alt="Review 16" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review17.jpg" alt="Review 17" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review18.jpg" alt="Review 18" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review19.jpg" alt="Review 19" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review20.jpg" alt="Review 20" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review21.jpg" alt="Review 21" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review22.jpg" alt="Review 22" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review23.jpg" alt="Review 23" className="w-32 h-32 object-cover rounded-lg shadow" />
-        <img src="/images/reviews/Review24.jpg" alt="Review 24" className="w-32 h-32 object-cover rounded-lg shadow" />
+        {Array.from({ length: 24 }).map((_, i) => {
+          const n = i + 1;
+          const path = `/images/reviews/Review${n}.jpg`;
+          return (
+            <img
+              key={n}
+              src={path}
+              alt={`Review ${n}`}
+              onClick={() => openImage(path)}
+              className="w-32 h-32 object-cover rounded-lg shadow cursor-pointer hover:scale-105 transition"
+            />
+          );
+        })}
       </div>
 
-      {/* ⭐ Write or Edit Review */}
+      {/* 🌟 Image Zoom Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center"
+            onClick={closeImage}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.img
+              src={selectedImage}
+              alt="Full"
+              className="max-w-full max-h-[90vh] rounded-lg shadow-2xl"
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.8 }}
+              onClick={(e) => e.stopPropagation()}
+            />
+            <button
+              className="absolute top-4 right-4 text-white text-3xl"
+              onClick={closeImage}
+            >
+              &times;
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* ⭐ Review Form */}
       <motion.form
         onSubmit={handleSubmit}
         className='w-full max-w-xl bg-white p-6 rounded-lg shadow-md mb-10'
