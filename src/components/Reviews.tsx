@@ -13,8 +13,9 @@ interface Review {
 
 const JSONBIN_API_KEY = import.meta.env.VITE_JSONBIN_API_KEY;
 const JSONBIN_BIN_ID = import.meta.env.VITE_JSONBIN_BIN_ID;
-
 const ADMIN_KEY = 'admin-key-123';
+
+const UNCIVIL_REVIEW_IDS = ['16870123', 'badid-2002']; // ➕ Add any bad review ids here
 
 const Reviews = () => {
   const [name, setName] = useState('');
@@ -33,11 +34,11 @@ const Reviews = () => {
   const fetchReviews = async () => {
     try {
       const res = await axios.get(`https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`, {
-        headers: {
-          'X-Master-Key': JSONBIN_API_KEY,
-        },
+        headers: { 'X-Master-Key': JSONBIN_API_KEY },
       });
-      setReviews(res.data.record || []);
+      const all = res.data.record || [];
+      const filtered = all.filter((r: Review) => !UNCIVIL_REVIEW_IDS.includes(r.id));
+      setReviews(filtered);
     } catch (err) {
       console.error('Failed to fetch reviews', err);
     }
@@ -60,14 +61,9 @@ const Reviews = () => {
     }
   };
 
+  useEffect(() => { fetchReviews(); }, []);
   useEffect(() => {
-    fetchReviews();
-  }, []);
-
-  useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    if (scrollRef.current) scrollRef.current.scrollIntoView({ behavior: 'smooth' });
   }, [reviews]);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -130,12 +126,15 @@ const Reviews = () => {
     <div className='flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-[#fdf3e7] text-[#4d0000]'>
       <h2 className='text-3xl font-bold mb-6'>Past Reviews</h2>
 
-      {/* Gallery */}
-      <div className="flex gap-4 mb-8">
+      {/* ✅ Past Year Review Photos */}
+      <div className="flex gap-4 mb-8 flex-wrap justify-center">
         <img src="/review1.jpg" alt="Review 1" className="w-32 h-32 rounded-lg shadow" />
         <img src="/review2.jpg" alt="Review 2" className="w-32 h-32 rounded-lg shadow" />
+        <img src="/review3.jpg" alt="Review 3" className="w-32 h-32 rounded-lg shadow" />
+        <img src="/review4.jpg" alt="Review 4" className="w-32 h-32 rounded-lg shadow" />
       </div>
 
+      {/* ⭐ Write or Edit Review */}
       <motion.form
         onSubmit={handleSubmit}
         className='w-full max-w-xl bg-white p-6 rounded-lg shadow-md mb-10'
@@ -181,6 +180,7 @@ const Reviews = () => {
         </button>
       </motion.form>
 
+      {/* 💬 All Reviews */}
       <motion.div className='w-full max-w-2xl' initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h3 className='text-xl font-semibold mb-4'>All Reviews</h3>
         {reviews.length === 0 ? (
@@ -206,12 +206,21 @@ const Reviews = () => {
               </p>
               <p className='mb-2'>{review.content}</p>
               <div className='flex gap-2 text-sm'>
-                <button onClick={() => handleEdit(review)} className='text-blue-600 hover:underline'>
-                  Edit
-                </button>
-                <button onClick={() => handleDelete(review.id)} className='text-red-600 hover:underline'>
-                  Delete
-                </button>
+                {review.deviceId === deviceId && (
+                  <>
+                    <button onClick={() => handleEdit(review)} className='text-blue-600 hover:underline'>
+                      Edit
+                    </button>
+                    <button onClick={() => handleDelete(review.id)} className='text-red-600 hover:underline'>
+                      Delete
+                    </button>
+                  </>
+                )}
+                {deviceId === ADMIN_KEY && (
+                  <button onClick={() => handleDelete(review.id)} className='text-red-600 hover:underline'>
+                    Admin Delete
+                  </button>
+                )}
               </div>
             </motion.div>
           ))
