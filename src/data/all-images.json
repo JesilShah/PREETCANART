@@ -56,13 +56,6 @@
     "price": "₹ 30 (Limited Stock)"
   },
   {
-    "id": "GREY RED STONE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/GREY RED STONE RAKHI.jpg",
-    "alt": "GREY RED STONE RAKHI",
-    "price": "₹ 30 (Only few left)"
-  },
-  {
     "id": "HORSE RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/HORSE RAKHI.jpg",
@@ -89,13 +82,6 @@
     "url": "/images/rakhis/MEENA FLORAL RAKHIS.jpg",
     "alt": "MEENA FLORAL RAKHIS",
     "price": "₹ 50"
-  },
-  {
-    "id": "PUNJABI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/PUNJABI RAKHI.jpg",
-    "alt": "PUNJABI RAKHI",
-    "price": "₹ 40 (Limited Stock)"
   },
   {
     "id": "MINION BRACELET",
@@ -420,13 +406,6 @@
     "price": "₹ 180"
   },
   {
-    "id": "MEENAKARI RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/MEENAKARI RAKHI COMBO.jpg",
-    "alt": "MEENAKARI RAKHI COMBO",
-    "price": "₹ 130  (Limited Stock)"
-  },
-  {
     "id": "MOP DROP COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP DROP COMBO.jpg",
@@ -473,13 +452,6 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/PASTEL STONE RAKHI.jpg",
     "alt": "PASTEL STONE RAKHI",
-    "price": "₹ 120"
-  },
-  {
-    "id": "PEACOCK EMBOSS RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/PEACOCK EMBOSS RAKHI COMBO.jpg",
-    "alt": "PEACOCK EMBOSS RAKHI COMBO",
     "price": "₹ 120"
   },
   {
