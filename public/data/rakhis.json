@@ -1,5 +1,29 @@
 [
   {
+    "id": "ADJUSTABLE RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/ADJUSTABLE RAKHI.jpeg",
+    "alt": "ADJUSTABLE RAKHI"
+  },
+  {
+    "id": "BHABHI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHABHI RAKHI.jpeg",
+    "alt": "BHABHI RAKHI"
+  },
+  {
+    "id": "BHAI RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHAI RESIN RAKHI.jpeg",
+    "alt": "BHAI RESIN RAKHI"
+  },
+  {
+    "id": "BHAIYA RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHAIYA RESIN RAKHI.jpeg",
+    "alt": "BHAIYA RESIN RAKHI"
+  },
+  {
     "id": "BINDI IMITATION RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BINDI IMITATION RAKHI.jpeg",
@@ -30,10 +54,34 @@
     "alt": "BLUE STONE IMITATION RAKHI"
   },
   {
+    "id": "BRO RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BRO RESIN RAKHI.jpeg",
+    "alt": "BRO RESIN RAKHI"
+  },
+  {
+    "id": "CARTOON RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/CARTOON RAKHI.jpeg",
+    "alt": "CARTOON RAKHI"
+  },
+  {
     "id": "CHAND RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/CHAND RAKHI.jpg",
     "alt": "CHAND RAKHI"
+  },
+  {
+    "id": "COOL BHAI RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/COOL BHAI RESIN RAKHI.jpeg",
+    "alt": "COOL BHAI RESIN RAKHI"
+  },
+  {
+    "id": "EVIL EYE BHABHI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE BHABHI RAKHI.jpeg",
+    "alt": "EVIL EYE BHABHI RAKHI"
   },
   {
     "id": "EVIL EYE BRACELET",
@@ -42,10 +90,22 @@
     "alt": "EVIL EYE BRACELET"
   },
   {
+    "id": "EVIL EYE RAKHI BRACELET",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RAKHI BRACELET.jpeg",
+    "alt": "EVIL EYE RAKHI BRACELET"
+  },
+  {
     "id": "EVIL EYE RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/EVIL EYE RAKHI.jpg",
     "alt": "EVIL EYE RAKHI"
+  },
+  {
+    "id": "GREEN KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/GREEN KUNDAN RAKHI.jpeg",
+    "alt": "GREEN KUNDAN RAKHI"
   },
   {
     "id": "GREY RED STONE RAKHI",
@@ -60,6 +120,12 @@
     "alt": "HORSE RAKHI"
   },
   {
+    "id": "KING BRO RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/KING BRO RESIN RAKHI.jpeg",
+    "alt": "KING BRO RESIN RAKHI"
+  },
+  {
     "id": "KRISHNA RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/KRISHNA RAKHI.jpeg",
@@ -70,6 +136,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/KUNDAN STONE.jpg",
     "alt": "KUNDAN STONE"
+  },
+  {
+    "id": "LOTUS RAKHI COMBO",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/LOTUS RAKHI COMBO.jpeg",
+    "alt": "LOTUS RAKHI COMBO"
   },
   {
     "id": "MEENA FLORAL RAKHIS",
@@ -126,16 +198,52 @@
     "alt": "PASTEL PINK RAKHI"
   },
   {
-    "id": "PUNJABI RAKHO",
+    "id": "PUNJABI RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/PUNJABI RAKHO.jpg",
-    "alt": "PUNJABI RAKHO"
+    "url": "/images/rakhis/PUNJABI RAKHI.jpeg",
+    "alt": "PUNJABI RAKHI"
+  },
+  {
+    "id": "PUNJABI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PUNJABI RAKHI.jpg",
+    "alt": "PUNJABI RAKHI"
   },
   {
     "id": "PURPLE BRACELET",
     "categoryId": "rakhis",
     "url": "/images/rakhis/PURPLE BRACELET.jpg",
     "alt": "PURPLE BRACELET"
+  },
+  {
+    "id": "RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RAKHI.jpeg",
+    "alt": "RAKHI"
+  },
+  {
+    "id": "RED EVIL EYE COMBO",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED EVIL EYE COMBO.jpeg",
+    "alt": "RED EVIL EYE COMBO"
+  },
+  {
+    "id": "RED EVIL EYE RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED EVIL EYE RAKHI.jpeg",
+    "alt": "RED EVIL EYE RAKHI"
+  },
+  {
+    "id": "RED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED KUNDAN RAKHI.jpeg",
+    "alt": "RED KUNDAN RAKHI"
+  },
+  {
+    "id": "RUDRAKSHA DIAMOND RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RUDRAKSHA DIAMOND RAKHI.jpeg",
+    "alt": "RUDRAKSHA DIAMOND RAKHI"
   },
   {
     "id": "RUDRAKSHA KUNDAN RAKHI",
@@ -162,10 +270,22 @@
     "alt": "SHREENATHJI BRACELET"
   },
   {
+    "id": "SILVER FINISH RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SILVER FINISH RAKHI.jpeg",
+    "alt": "SILVER FINISH RAKHI"
+  },
+  {
     "id": "SWASTIK CIRCLE RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/SWASTIK CIRCLE RAKHI.jpg",
     "alt": "SWASTIK CIRCLE RAKHI"
+  },
+  {
+    "id": "SWASTIK RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
+    "alt": "SWASTIK RAKHI"
   },
   {
     "id": "SWASTIK RAKHIS",
@@ -180,10 +300,10 @@
     "alt": "SWATIK SOLO RAKHI"
   },
   {
-    "id": "tauba tauba 2.0 rakhi",
+    "id": "TAUBA TAUBA 2 RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/tauba tauba 2.0 rakhi.jpg",
-    "alt": "tauba tauba 2.0 rakhi"
+    "url": "/images/rakhis/TAUBA TAUBA 2 RAKHI.jpg",
+    "alt": "TAUBA TAUBA 2 RAKHI"
   },
   {
     "id": "TAUBA TAUBA RAKHI",

@@ -13,6 +13,7 @@ const categories = [
   'couple-rakhis',
   'immitation-jewellery',
   'kids-rakhis',
+  'resin-rakhis',
 ];
 
 // Input base folder (relative to this script)
