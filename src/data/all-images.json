@@ -8,57 +8,29 @@
   },
   {
     "id": "BHABHI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHABHI RAKHI.jpeg",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/BHABHI RAKHI.jpeg",
     "alt": "BHABHI RAKHI",
     "price": "₹ 75"
   },
   {
-    "id": "BHAI RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHAI RESIN RAKHI.jpeg",
-    "alt": "BHAI RESIN RAKHI",
-    "price": "₹ 90 Each"
-  },
-  {
-    "id": "BHAIYA RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHAIYA RESIN RAKHI.jpeg",
-    "alt": "BHAIYA RESIN RAKHI",
-    "price": "₹ 100"
-  },
-  {
-    "id": "BRO RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BRO RESIN RAKHI.jpeg",
-    "alt": "BRO RESIN RAKHI",
-    "price": "₹ 90"
-  },
-  {
     "id": "CARTOON RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/CARTOON RAKHI.jpeg",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/CARTOON RAKHI.jpeg",
     "alt": "CARTOON RAKHI",
     "price": "₹ 20"
   },
   {
-    "id": "COOL BHAI RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/COOL BHAI RESIN RAKHI.jpeg",
-    "alt": "COOL BHAI RESIN RAKHI",
-    "price": "₹ 90"
-  },
-  {
     "id": "EVIL EYE BHABHI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE BHABHI RAKHI.jpeg",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
     "alt": "EVIL EYE BHABHI RAKHI",
     "price": "₹ 60"
   },
   {
     "id": "EVIL EYE RAKHI BRACELET",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE RAKHI BRACELET.jpeg",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/EVIL EYE RAKHI BRACELET.jpeg",
     "alt": "EVIL EYE RAKHI BRACELET",
     "price": "₹ 100 (Limited Stock)"
   },
@@ -77,16 +49,9 @@
     "price": "₹ 40 (Limited Stock)"
   },
   {
-    "id": "KING BRO RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/KING BRO RESIN RAKHI.jpeg",
-    "alt": "KING BRO RESIN RAKHI",
-    "price": "₹ 90"
-  },
-  {
     "id": "LOTUS RAKHI COMBO",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/LOTUS RAKHI COMBO.jpeg",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/LOTUS RAKHI COMBO.jpeg",
     "alt": "LOTUS RAKHI COMBO",
     "price": "₹ 120 (Limited Stock)"
   },
@@ -99,8 +64,8 @@
   },
   {
     "id": "RED EVIL EYE COMBO",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/RED EVIL EYE COMBO.jpeg",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/RED EVIL EYE COMBO.jpeg",
     "alt": "RED EVIL EYE COMBO",
     "price": "₹ 140 (Limited Stock)"
   },
