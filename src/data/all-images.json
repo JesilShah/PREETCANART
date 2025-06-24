@@ -1,5 +1,145 @@
 [
   {
+    "id": "ADJUSTABLE RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/ADJUSTABLE RAKHI.jpeg",
+    "alt": "ADJUSTABLE RAKHI",
+    "price": "₹ 120 (Limited Stock)"
+  },
+  {
+    "id": "BHABHI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHABHI RAKHI.jpeg",
+    "alt": "BHABHI RAKHI",
+    "price": "₹ 75"
+  },
+  {
+    "id": "BHAI RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHAI RESIN RAKHI.jpeg",
+    "alt": "BHAI RESIN RAKHI",
+    "price": "₹ 90 Each"
+  },
+  {
+    "id": "BHAIYA RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BHAIYA RESIN RAKHI.jpeg",
+    "alt": "BHAIYA RESIN RAKHI",
+    "price": "₹ 100"
+  },
+  {
+    "id": "BRO RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BRO RESIN RAKHI.jpeg",
+    "alt": "BRO RESIN RAKHI",
+    "price": "₹ 90"
+  },
+  {
+    "id": "CARTOON RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/CARTOON RAKHI.jpeg",
+    "alt": "CARTOON RAKHI",
+    "price": "₹ 20"
+  },
+  {
+    "id": "COOL BHAI RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/COOL BHAI RESIN RAKHI.jpeg",
+    "alt": "COOL BHAI RESIN RAKHI",
+    "price": "₹ 90"
+  },
+  {
+    "id": "EVIL EYE BHABHI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE BHABHI RAKHI.jpeg",
+    "alt": "EVIL EYE BHABHI RAKHI",
+    "price": "₹ 60"
+  },
+  {
+    "id": "EVIL EYE RAKHI BRACELET",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RAKHI BRACELET.jpeg",
+    "alt": "EVIL EYE RAKHI BRACELET",
+    "price": "₹ 100 (Limited Stock)"
+  },
+  {
+    "id": "GREEN KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/GREEN KUNDAN RAKHI.jpeg",
+    "alt": "GREEN KUNDAN RAKHI",
+    "price": "₹ 40"
+  },
+  {
+    "id": "PUNJABI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PUNJABI RAKHI.jpeg",
+    "alt": "PUNJABI RAKHI",
+    "price": "₹ 40 (Limited Stock)"
+  },
+  {
+    "id": "KING BRO RESIN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/KING BRO RESIN RAKHI.jpeg",
+    "alt": "KING BRO RESIN RAKHI",
+    "price": "₹ 90"
+  },
+  {
+    "id": "LOTUS RAKHI COMBO",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/LOTUS RAKHI COMBO.jpeg",
+    "alt": "LOTUS RAKHI COMBO",
+    "price": "₹ 120 (Limited Stock)"
+  },
+  {
+    "id": "RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RAKHI.jpeg",
+    "alt": "RAKHI",
+    "price": "₹ 30 (Limited Stock)"
+  },
+  {
+    "id": "RED EVIL EYE COMBO",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED EVIL EYE COMBO.jpeg",
+    "alt": "RED EVIL EYE COMBO",
+    "price": "₹ 140 (Limited Stock)"
+  },
+  {
+    "id": "RED EVIL EYE RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED EVIL EYE RAKHI.jpeg",
+    "alt": "RED EVIL EYE RAKHI",
+    "price": "₹ 40 (Limited Stock)"
+  },
+  {
+    "id": "RED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED KUNDAN RAKHI.jpeg",
+    "alt": "RED KUNDAN RAKHI",
+    "price": "₹ 45"
+  },
+  {
+    "id": "RUDRAKSHA DIAMOND RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RUDRAKSHA DIAMOND RAKHI.jpeg",
+    "alt": "RUDRAKSHA DIAMOND RAKHI",
+    "price": "₹ 30"
+  },
+  {
+    "id": "SILVER FINISH RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SILVER FINISH RAKHI.jpeg",
+    "alt": "SILVER FINISH RAKHI",
+    "price": "₹ 30 (Limited Stock)"
+  },
+  {
+    "id": "SWASTIK RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
+    "alt": "SWASTIK RAKHI",
+    "price": "₹ 40"
+  },
+  {
     "id": "BINDI IMITATION RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BINDI IMITATION RAKHI.jpeg",
@@ -635,5 +775,40 @@
     "url": "/images/kids-rakhis/VEERA RAKHI.jpeg",
     "alt": "VEERA RAKHI",
     "price": "₹ 20 (Limited Stock)"
+  },
+  {
+    "id": "BHAI RESIN RAKHI",
+    "categoryId": "resin-rakhis",
+    "url": "/images/resin-rakhis/BHAI RESIN RAKHI.jpeg",
+    "alt": "BHAI RESIN RAKHI",
+    "price": "₹ 90 Each"
+  },
+  {
+    "id": "BHAIYA RESIN RAKHI",
+    "categoryId": "resin-rakhis",
+    "url": "/images/resin-rakhis/BHAIYA RESIN RAKHI.jpeg",
+    "alt": "BHAIYA RESIN RAKHI",
+    "price": "₹ 100"
+  },
+  {
+    "id": "BRO RESIN RAKHI",
+    "categoryId": "resin-rakhis",
+    "url": "/images/resin-rakhis/BRO RESIN RAKHI.jpeg",
+    "alt": "BRO RESIN RAKHI",
+    "price": "₹ 90"
+  },
+  {
+    "id": "COOL BHAI RESIN RAKHI",
+    "categoryId": "resin-rakhis",
+    "url": "/images/resin-rakhis/COOL BHAI RESIN RAKHI.jpeg",
+    "alt": "COOL BHAI RESIN RAKHI",
+    "price": "₹ 90"
+  },
+  {
+    "id": "KING BRO RESIN RAKHI",
+    "categoryId": "resin-rakhis",
+    "url": "/images/resin-rakhis/KING BRO RESIN RAKHI.jpeg",
+    "alt": "KING BRO RESIN RAKHI",
+    "price": "₹ 90"
   }
 ]

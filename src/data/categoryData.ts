@@ -32,6 +32,12 @@ export const categoryData: Category[] = [
       'Stylish bracelets that can be worn beyond the festival, keeping the bond alive throughout the year.',
   },
   {
+    id: 'resin-rakhis',
+    name: 'RESIN RAKHIS',
+    description:
+      'Resin rakhis designed specifically for this special event and relationship',
+  },
+  {
     id: 'immitation-jewellery',
     name: 'IMMITATION JEWELLERY',
     description:
