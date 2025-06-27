@@ -16,9 +16,9 @@ const HeroSection = () => {
   };
 
   return (
-    <div className='bg-beige flex flex-col items-center justify-start pt-16 pb-20'>
+    <div className='bg-beige flex flex-col items-center justify-start pt-16 pb-20 px-4'>
       {/* Logos */}
-      <div className='flex flex-col items-center mt-5'>
+      <div className='flex flex-col items-center gap-4 mt-5'>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className='w-72 h-72 md:w-[32rem] md:h-[26rem] bg-beige/30 rounded-full flex items-center justify-center'
+          className='w-74 h-74 md:w-[32rem] md:h-[26rem] bg-beige/30 rounded-full flex items-center justify-center'
         >
           <a href='https://kaibee.in' target='_blank' rel='noopener noreferrer'>
             <img
