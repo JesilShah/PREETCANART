@@ -23,7 +23,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className='w-64 h-64 md:w-[24rem] md:h-[24rem] bg-beige/30 rounded-full border-2 border-maroon/30 flex items-center justify-center'
+          className='w-64 h-64 md:w-[18rem] md:h-[18rem] bg-beige/30 rounded-full border-2 border-maroon/30 flex items-center justify-center'
         >
           <img
             src={LOGO}
