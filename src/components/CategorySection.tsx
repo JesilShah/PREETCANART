@@ -6,7 +6,10 @@ import allImageData from '../data/all-images.json';
 
 const CategorySection = () => {
   return (
-    <section id='categories' className='py-16 bg-maroon'>
+    <section
+      id='categories'
+      className='py-16 mt-2 bg-maroon border-yellow-500'
+    >
       <div className='container mx-auto px-4'>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
