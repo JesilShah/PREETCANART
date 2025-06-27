@@ -23,7 +23,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className='w-64 h-64 md:w-[18rem] md:h-[18rem] bg-beige/30 rounded-full border-2 border-maroon/30 flex items-center justify-center'
+          className='w-64 h-64 md:w-[14rem] md:h-[14rem] bg-beige/30 rounded-full border-2 border-maroon/30 flex items-center justify-center'
         >
           <img
             src={LOGO}
@@ -36,7 +36,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className='w-72 h-72 md:w-[36rem] md:h-[30rem] bg-beige/30 rounded-full flex items-center justify-center'
+          className='w-72 h-72 md:w-[32rem] md:h-[26rem] bg-beige/30 rounded-full flex items-center justify-center'
         >
           <a href='https://kaibee.in' target='_blank' rel='noopener noreferrer'>
             <img
