@@ -36,7 +36,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className='w-72 h-72 md:w-[42rem] md:h-[36rem] bg-beige/30 rounded-full flex items-center justify-center'
+          className='w-72 h-72 md:w-[36rem] md:h-[30rem] bg-beige/30 rounded-full flex items-center justify-center'
         >
           <a href='https://kaibee.in' target='_blank' rel='noopener noreferrer'>
             <img
