@@ -91,13 +91,6 @@
     "price": "₹ 30"
   },
   {
-    "id": "SILVER FINISH RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/SILVER FINISH RAKHI.jpeg",
-    "alt": "SILVER FINISH RAKHI",
-    "price": "₹ 30 (Limited Stock)"
-  },
-  {
     "id": "SWASTIK RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
@@ -117,13 +110,6 @@
     "url": "/images/rakhis/BIRD LATKAN RAKHI.jpg",
     "alt": "BIRD LATKAN RAKHI",
     "price": "₹ 40"
-  },
-  {
-    "id": "BLUE FLOWER IMITATION",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BLUE FLOWER IMITATION.jpeg",
-    "alt": "BLUE FLOWER IMITATION",
-    "price": "₹ 40 (Limited Stock)"
   },
   {
     "id": "BLUE STONE DROP RAKHI",
@@ -152,13 +138,6 @@
     "url": "/images/rakhis/EVIL EYE BRACELET.jpg",
     "alt": "EVIL EYE BRACELET",
     "price": "₹ 100"
-  },
-  {
-    "id": "EVIL EYE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE RAKHI.jpg",
-    "alt": "EVIL EYE RAKHI",
-    "price": "₹ 30 (Limited Stock)"
   },
   {
     "id": "HORSE RAKHI",
@@ -217,13 +196,6 @@
     "price": "₹ 50 (Limited Stock)"
   },
   {
-    "id": "OM AND SWASTIK RAKHIS",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/OM AND SWASTIK RAKHIS.jpg",
-    "alt": "OM AND SWASTIK RAKHIS",
-    "price": "₹ 30 (Limited Stock)"
-  },
-  {
     "id": "OM RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/OM RAKHI.jpg",
@@ -236,13 +208,6 @@
     "url": "/images/rakhis/PASTEL GREY RAKHI.jpg",
     "alt": "PASTEL GREY RAKHI",
     "price": "₹ 40"
-  },
-  {
-    "id": "PASTEL PINK RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/PASTEL PINK RAKHI.jpg",
-    "alt": "PASTEL PINK RAKHI",
-    "price": "₹ 30"
   },
   {
     "id": "PURPLE BRACELET",
@@ -287,13 +252,6 @@
     "price": "₹ 40"
   },
   {
-    "id": "SWASTIK RAKHIS",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/SWASTIK RAKHIS.jpeg",
-    "alt": "SWASTIK RAKHIS",
-    "price": "₹ 30 (Limited Stock)"
-  },
-  {
     "id": "SWATIK SOLO RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/SWATIK SOLO RAKHI.jpg",
@@ -313,13 +271,6 @@
     "url": "/images/rakhis/TAUBA TAUBA RAKHI.jpg",
     "alt": "TAUBA TAUBA RAKHI",
     "price": "₹ 40"
-  },
-  {
-    "id": "TRISHUL RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/TRISHUL RAKHI.jpeg",
-    "alt": "TRISHUL RAKHI",
-    "price": "₹ 30 (Limited Stock)"
   },
   {
     "id": "UNI BRACELETS",
@@ -476,13 +427,6 @@
     "price": "₹ 100"
   },
   {
-    "id": "GREY RED STONE COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/GREY RED STONE COMBO.jpg",
-    "alt": "GREY RED STONE COMBO",
-    "price": "₹ 240 (Limited Stock)"
-  },
-  {
     "id": "HEXA RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/HEXA RAKHI COMBO.jpg",
@@ -553,13 +497,6 @@
     "price": "₹ 120"
   },
   {
-    "id": "PASTEL STONE RAKHI",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/PASTEL STONE RAKHI.jpg",
-    "alt": "PASTEL STONE RAKHI",
-    "price": "₹ 120"
-  },
-  {
     "id": "QUIRKY RUGBY WHITE",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/QUIRKY RUGBY WHITE.jpeg",
@@ -614,13 +551,6 @@
     "url": "/images/couple-rakhis/TAUBA 2.0 RAKHI COMBO.jpg",
     "alt": "TAUBA 2.0 RAKHI COMBO",
     "price": "₹ 140"
-  },
-  {
-    "id": "TRIANGLE IMITATION RAKHI",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/TRIANGLE IMITATION RAKHI.jpg",
-    "alt": "TRIANGLE IMITATION RAKHI",
-    "price": "₹ 130 (Only few left)"
   },
   {
     "id": "YELLOW SQUARE COMBO",
@@ -679,13 +609,6 @@
     "price": "₹ 50"
   },
   {
-    "id": "TOM JERRY RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/TOM JERRY RAKHI.jpg",
-    "alt": "TOM JERRY RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
     "id": "BRO #1 RAKHI",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/BRO HASH1 RAKHI.jpeg",
@@ -693,52 +616,10 @@
     "price": "₹ 20 (Limited Stock)"
   },
   {
-    "id": "BRO HANUMAN RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO HANUMAN RAKHI.jpeg",
-    "alt": "BRO HANUMAN RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
-    "id": "BRO RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO RAKHI.jpeg",
-    "alt": "BRO RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
-    "id": "CHOTA BHEEM RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/CHOTA BHEEM RAKHI.jpeg",
-    "alt": "CHOTA BHEEM RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
-    "id": "GANPATI RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/GANPATI RAKHI.jpeg",
-    "alt": "GANPATI RAKHI",
-    "price": "₹ 15 (Limited Stock)"
-  },
-  {
-    "id": "POO RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/POO RAKHI.jpeg",
-    "alt": "POO RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
     "id": "UNICORN RAKHI",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/UNICORN RAKHI.jpeg",
     "alt": "UNICORN RAKHI",
-    "price": "₹ 20 (Limited Stock)"
-  },
-  {
-    "id": "VEERA RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/VEERA RAKHI.jpeg",
-    "alt": "VEERA RAKHI",
     "price": "₹ 20 (Limited Stock)"
   },
   {
