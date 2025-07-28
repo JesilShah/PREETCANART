@@ -287,6 +287,34 @@
     "price": "₹ 50 (Limited Stock)"
   },
   {
+    "id": "MOP RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 1.jpg",
+    "alt": "MOP RAKHI 1",
+    "price": "₹ 120 "
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 2.jpg",
+    "alt": "MOP RAKHI 2",
+    "price": "₹ 100 "
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 3.jpg",
+    "alt": "MOP RAKHI 3",
+    "price": "₹ 110 "
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 4.jpg",
+    "alt": "MOP RAKHI 4",
+    "price": "₹ 110 "
+  },
+  {
     "id": "CHAND BRACELET",
     "categoryId": "bracelets",
     "url": "/images/bracelets/CHAND BRACELET.jpg",
