@@ -49,12 +49,6 @@ const AboutArtist: React.FC = () => {
                 
                 <div className="space-y-4 text-primary/80">
                   <p>
-                    This is where you can add your biography. Tell your story, share your 
-                    passion for creating handcrafted rakhis, and connect with your customers 
-                    on a personal level.
-                  </p>
-                  
-                  <p>
                   Today, getting a designer rakhi can be heavy on the pocket. This pushed me to design and handcraft exquisite rakhis and bhabhi rakhis and bring them to my customers at an affordable price.
                   We , at Preetcanart offer customisation, understand our customer’s taste and requirement.
                   and bring them premium quality of handmade rakhis at budget friendly rates. We started with shipping services across india and a few countries so as to give our customers a hassle free shopping experience.
