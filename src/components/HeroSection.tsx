@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import LOGO from '/images/PREETCANARTLOGO.png';
 import KAIBEELOGO from '/images/KAIBEE.jpg';
-import CHRISTMASLOGO from '/images/CHRISTMAS-1.png';
+import CHRISTMASLOGO from '/images/CHRISTMAS-2.png';
 
 const HeroSection = () => {
   const scrollToCategories = () => {
