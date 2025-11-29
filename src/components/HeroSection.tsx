@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import LOGO from '/images/PREETCANARTLOGO.png';
 import KAIBEELOGO from '/images/KAIBEE.jpg';
+import CHRISTMASLOGO from '/images/CHRISTMAS-1.png';
 
 const HeroSection = () => {
   const scrollToCategories = () => {
@@ -31,6 +32,20 @@ const HeroSection = () => {
             className='w-full h-full object-contain'
           />
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className='w-74 h-74 md:w-[32rem] md:h-[26rem] bg-beige/30 rounded-full flex items-center justify-center'
+        >
+          <img
+            src={CHRISTMASLOGO}
+            alt='Christmas Logo'
+            className='w-full h-full object-contain'
+          />
+        </motion.div>
+
 
         <motion.div
           initial={{ opacity: 0, y: -20 }}
