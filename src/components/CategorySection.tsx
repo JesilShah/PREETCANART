@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import { categoryData } from '../data/categoryData';
 import allImageData from '../data/all-images.json';
 
+// Category to hide
+const HIDDEN_CATEGORY_ID = 'christmas'; // <-- change this to your category ID
+
 const CategorySection = () => {
   return (
     <section id='categories' className='py-16 mt-2 bg-maroon border-yellow-500'>
@@ -20,7 +23,7 @@ const CategorySection = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {categoryData
-            .filter((category) => !category.hidden)
+            .filter((category) => category.id !== HIDDEN_CATEGORY_ID) // <-- hidden from UI
             .map((category, index) => (
               <motion.div
                 key={category.id}
@@ -40,6 +43,7 @@ const CategorySection = () => {
                             (image) => image.categoryId === category.id
                           )?.url
                         }
+                        alt={category.name}
                         className='w-full h-full object-contain aspect-square'
                       />
                     </div>
