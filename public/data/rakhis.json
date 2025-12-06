@@ -6,24 +6,6 @@
     "alt": "ADJUSTABLE RAKHI"
   },
   {
-    "id": "BHABHI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHABHI RAKHI.jpeg",
-    "alt": "BHABHI RAKHI"
-  },
-  {
-    "id": "BHAI RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHAI RESIN RAKHI.jpeg",
-    "alt": "BHAI RESIN RAKHI"
-  },
-  {
-    "id": "BHAIYA RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BHAIYA RESIN RAKHI.jpeg",
-    "alt": "BHAIYA RESIN RAKHI"
-  },
-  {
     "id": "BINDI IMITATION RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BINDI IMITATION RAKHI.jpeg",
@@ -54,46 +36,16 @@
     "alt": "BLUE STONE IMITATION RAKHI"
   },
   {
-    "id": "BRO RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BRO RESIN RAKHI.jpeg",
-    "alt": "BRO RESIN RAKHI"
-  },
-  {
-    "id": "CARTOON RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/CARTOON RAKHI.jpeg",
-    "alt": "CARTOON RAKHI"
-  },
-  {
     "id": "CHAND RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/CHAND RAKHI.jpg",
     "alt": "CHAND RAKHI"
   },
   {
-    "id": "COOL BHAI RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/COOL BHAI RESIN RAKHI.jpeg",
-    "alt": "COOL BHAI RESIN RAKHI"
-  },
-  {
-    "id": "EVIL EYE BHABHI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE BHABHI RAKHI.jpeg",
-    "alt": "EVIL EYE BHABHI RAKHI"
-  },
-  {
     "id": "EVIL EYE BRACELET",
     "categoryId": "rakhis",
     "url": "/images/rakhis/EVIL EYE BRACELET.jpg",
     "alt": "EVIL EYE BRACELET"
-  },
-  {
-    "id": "EVIL EYE RAKHI BRACELET",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE RAKHI BRACELET.jpeg",
-    "alt": "EVIL EYE RAKHI BRACELET"
   },
   {
     "id": "EVIL EYE RAKHI",
@@ -120,12 +72,6 @@
     "alt": "HORSE RAKHI"
   },
   {
-    "id": "KING BRO RESIN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/KING BRO RESIN RAKHI.jpeg",
-    "alt": "KING BRO RESIN RAKHI"
-  },
-  {
     "id": "KRISHNA RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/KRISHNA RAKHI.jpeg",
@@ -136,12 +82,6 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/KUNDAN STONE.jpg",
     "alt": "KUNDAN STONE"
-  },
-  {
-    "id": "LOTUS RAKHI COMBO",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/LOTUS RAKHI COMBO.jpeg",
-    "alt": "LOTUS RAKHI COMBO"
   },
   {
     "id": "MEENA FLORAL RAKHIS",
@@ -160,6 +100,30 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/MOP EVIL EYE RAKHI.jpg",
     "alt": "MOP EVIL EYE RAKHI"
+  },
+  {
+    "id": "MOP RAKHI 1",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 1.jpg",
+    "alt": "MOP RAKHI 1"
+  },
+  {
+    "id": "MOP RAKHI 2",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 2.jpg",
+    "alt": "MOP RAKHI 2"
+  },
+  {
+    "id": "MOP RAKHI 3",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 3.jpg",
+    "alt": "MOP RAKHI 3"
+  },
+  {
+    "id": "MOP RAKHI 4",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 4.jpg",
+    "alt": "MOP RAKHI 4"
   },
   {
     "id": "MOP RAKHI",
@@ -220,12 +184,6 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/RAKHI.jpeg",
     "alt": "RAKHI"
-  },
-  {
-    "id": "RED EVIL EYE COMBO",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/RED EVIL EYE COMBO.jpeg",
-    "alt": "RED EVIL EYE COMBO"
   },
   {
     "id": "RED EVIL EYE RAKHI",

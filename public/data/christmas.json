@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ChristmasCharmsBracelet",
+    "categoryId": "christmas",
+    "url": "/images/christmas/ChristmasCharmsBracelet.JPG",
+    "alt": "ChristmasCharmsBracelet"
+  },
+  {
+    "id": "SantaBracelet",
+    "categoryId": "christmas",
+    "url": "/images/christmas/SantaBracelet.JPG",
+    "alt": "SantaBracelet"
+  }
+]

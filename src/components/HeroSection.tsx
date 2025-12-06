@@ -1,7 +1,7 @@
-import React from 'react';
+//import React from 'react';
 import { motion } from 'framer-motion';
 import LOGO from '/images/PREETCANARTLOGO.png';
-import KAIBEELOGO from '/images/KAIBEE.jpg';
+//import KAIBEELOGO from '/images/KAIBEE.jpg';
 import CHRISTMASLOGO from '/images/CHRISTMAS-2.png';
 
 const HeroSection = () => {
@@ -46,8 +46,7 @@ const HeroSection = () => {
           />
         </motion.div>
 
-
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -60,7 +59,7 @@ const HeroSection = () => {
               className='w-full h-full object-contain'
             />
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Hero Text */}

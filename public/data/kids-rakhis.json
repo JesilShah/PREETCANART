@@ -18,6 +18,12 @@
     "alt": "BRO RAKHI"
   },
   {
+    "id": "CARTOON RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/CARTOON RAKHI.jpeg",
+    "alt": "CARTOON RAKHI"
+  },
+  {
     "id": "CHOTA BHEEM RAKHI",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/CHOTA BHEEM RAKHI.jpeg",
@@ -44,7 +50,7 @@
   {
     "id": "NAME RAKHI OPTIONS",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/NAME RAKHI OPTIONS.jpg",
+    "url": "/images/kids-rakhis/NAME RAKHI OPTIONS.jpeg",
     "alt": "NAME RAKHI OPTIONS"
   },
   {
