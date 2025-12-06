@@ -686,17 +686,17 @@
     "price": "₹ 90"
   },
   {
-    "id": "ChristmasCharmsBracelet",
+    "id": "Christmas Charms Bracelet",
     "categoryId": "christmas",
     "url": "/images/christmas/ChristmasCharmsBracelet.JPG",
-    "alt": "ChristmasCharmsBracelet",
+    "alt": "Christmas Charms Bracelet",
     "price": "₹ 200"
   },
   {
-    "id": "SantaBracelet",
+    "id": "Santa Bracelet",
     "categoryId": "christmas",
     "url": "/images/christmas/SantaBracelet.JPG",
-    "alt": "SantaBracelet",
+    "alt": "Santa Bracelet",
     "price": "₹ 200"
   }
 ]
