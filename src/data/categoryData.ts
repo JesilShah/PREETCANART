@@ -8,6 +8,11 @@ export interface Category {
 // Category data
 export const categoryData: Category[] = [
   {
+    id: 'christmas',
+    name: 'CHRISTMAS',
+    description: 'Christmas jewellery for special event',
+  },
+  {
     id: 'rakhis',
     name: 'RAKHIS',
     description:
@@ -42,10 +47,5 @@ export const categoryData: Category[] = [
     name: 'IMMITATION JEWELLERY',
     description:
       'Beautiful immitation jewellery that combine tradition with modern aesthetic.',
-  },
-  {
-    id: 'christmas',
-    name: 'CHRISTMAS',
-    description: 'Christmas jewellery for special event',
   },
 ];
