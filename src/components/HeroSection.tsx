@@ -39,11 +39,13 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className='w-74 h-74 md:w-[32rem] md:h-[26rem] bg-beige/30 rounded-full flex items-center justify-center'
         >
-          <img
-            src={CHRISTMASLOGO}
-            alt='Christmas Logo'
-            className='w-full h-full object-contain'
-          />
+          <a href='/category/christmas' rel='noopener noreferrer'>
+            <img
+              src={CHRISTMASLOGO}
+              alt='Christmas Logo'
+              className='w-full h-full object-contain'
+            />
+          </a>
         </motion.div>
 
         {/* <motion.div
