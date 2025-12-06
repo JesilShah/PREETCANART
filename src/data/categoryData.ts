@@ -3,6 +3,7 @@ export interface Category {
   id: string;
   name: string;
   description: string;
+  hidden?: boolean;
 }
 
 // Category data
@@ -11,6 +12,7 @@ export const categoryData: Category[] = [
     id: 'christmas',
     name: 'CHRISTMAS',
     description: 'Christmas jewellery for special event',
+    hidden: true,
   },
   {
     id: 'rakhis',
