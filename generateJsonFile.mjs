@@ -14,6 +14,7 @@ const categories = [
   'immitation-jewellery',
   'kids-rakhis',
   'resin-rakhis',
+  'christmas'
 ];
 
 // Input base folder (relative to this script)

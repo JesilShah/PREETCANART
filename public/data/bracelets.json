@@ -1,5 +1,11 @@
 [
   {
+    "id": "BHABHI RAKHI",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/BHABHI RAKHI.jpeg",
+    "alt": "BHABHI RAKHI"
+  },
+  {
     "id": "CHAND BRACELET",
     "categoryId": "bracelets",
     "url": "/images/bracelets/CHAND BRACELET.jpg",
@@ -12,10 +18,22 @@
     "alt": "DIAMOND STONE RAKHI"
   },
   {
+    "id": "EVIL EYE BHABHI RAKHI",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
+    "alt": "EVIL EYE BHABHI RAKHI"
+  },
+  {
     "id": "EVIL EYE BRACELET",
     "categoryId": "bracelets",
     "url": "/images/bracelets/EVIL EYE BRACELET.jpg",
     "alt": "EVIL EYE BRACELET"
+  },
+  {
+    "id": "EVIL EYE RAKHI BRACELET",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/EVIL EYE RAKHI BRACELET.jpeg",
+    "alt": "EVIL EYE RAKHI BRACELET"
   },
   {
     "id": "HORSE BRACELET",
@@ -56,7 +74,7 @@
   {
     "id": "NAME RAKHI OPTIONS",
     "categoryId": "bracelets",
-    "url": "/images/bracelets/NAME RAKHI OPTIONS.jpg",
+    "url": "/images/bracelets/NAME RAKHI OPTIONS.jpeg",
     "alt": "NAME RAKHI OPTIONS"
   },
   {

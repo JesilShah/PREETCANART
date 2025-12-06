@@ -43,4 +43,9 @@ export const categoryData: Category[] = [
     description:
       'Beautiful immitation jewellery that combine tradition with modern aesthetic.',
   },
+  {
+    id: 'christmas',
+    name: 'CHRISTMAS',
+    description: 'Christmas jewellery for special event',
+  },
 ];

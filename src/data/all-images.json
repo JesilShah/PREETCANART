@@ -684,5 +684,19 @@
     "url": "/images/resin-rakhis/KING BRO RESIN RAKHI.jpeg",
     "alt": "KING BRO RESIN RAKHI",
     "price": "₹ 90"
+  },
+  {
+    "id": "ChristmasCharmsBracelet",
+    "categoryId": "christmas",
+    "url": "/images/christmas/ChristmasCharmsBracelet.JPG",
+    "alt": "ChristmasCharmsBracelet",
+    "price": "₹ 200"
+  },
+  {
+    "id": "SantaBracelet",
+    "categoryId": "christmas",
+    "url": "/images/christmas/SantaBracelet.JPG",
+    "alt": "SantaBracelet",
+    "price": "₹ 200"
   }
 ]
