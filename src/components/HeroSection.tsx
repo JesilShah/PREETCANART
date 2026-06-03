@@ -33,7 +33,7 @@ const HeroSection = () => {
           />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -46,7 +46,7 @@ const HeroSection = () => {
               className='w-full h-full object-contain'
             />
           </a>
-        </motion.div>
+        </motion.div> */}
 
         {/* <motion.div
           initial={{ opacity: 0, y: -20 }}
