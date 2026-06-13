@@ -8,44 +8,44 @@ export interface Category {
 // Category data
 export const categoryData: Category[] = [
   {
-    id: 'christmas',
-    name: 'CHRISTMAS',
-    description: 'Christmas jewellery for special event',
-  },
-  {
     id: 'rakhis',
-    name: 'RAKHIS',
+    name: 'Rakhi Catalogue',
     description:
       'Our beautiful collection of traditional rakhis, handcrafted with love and care.',
   },
   {
     id: 'couple-rakhis',
-    name: 'COUPLE RAKHIS',
+    name: 'Couple Rakhi Catalogue',
     description:
       'Special rakhis designed for couples, celebrating the bond between siblings and their partners.',
   },
   {
     id: 'kids-rakhis',
-    name: 'KIDS RAKHIS',
+    name: 'Kids Rakhi Catalogue',
     description:
       'Quirky and playful rakhis designed specifically for kids, celebrating the special relationship.',
   },
   {
     id: 'bracelets',
-    name: 'BRACELETS',
+    name: 'Bracelet Catalogue',
     description:
       'Stylish bracelets that can be worn beyond the festival, keeping the bond alive throughout the year.',
   },
   {
     id: 'resin-rakhis',
-    name: 'RESIN RAKHIS',
+    name: 'Resin Rakhi Catalogue',
     description:
       'Resin rakhis designed specifically for this special event and relationship',
   },
   {
     id: 'immitation-jewellery',
-    name: 'IMMITATION JEWELLERY',
+    name: 'Immitation Jewellery',
     description:
       'Beautiful immitation jewellery that combine tradition with modern aesthetic.',
+  },
+  {
+    id: 'christmas',
+    name: 'Christmas',
+    description: 'Christmas jewellery for special event',
   },
 ];
