@@ -12,12 +12,6 @@
     "alt": "BINDI IMITATION RAKHI"
   },
   {
-    "id": "BIRD LATKAN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/BIRD LATKAN RAKHI.jpg",
-    "alt": "BIRD LATKAN RAKHI"
-  },
-  {
     "id": "BLUE FLOWER IMITATION",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BLUE FLOWER IMITATION.jpeg",
@@ -50,8 +44,20 @@
   {
     "id": "EVIL EYE RAKHI",
     "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RAKHI.jpeg",
+    "alt": "EVIL EYE RAKHI"
+  },
+  {
+    "id": "EVIL EYE RAKHI",
+    "categoryId": "rakhis",
     "url": "/images/rakhis/EVIL EYE RAKHI.jpg",
     "alt": "EVIL EYE RAKHI"
+  },
+  {
+    "id": "EVIL EYE RUDRAKSHA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RUDRAKSHA RAKHI.jpeg",
+    "alt": "EVIL EYE RUDRAKSHA RAKHI"
   },
   {
     "id": "GREEN KUNDAN RAKHI",
@@ -66,12 +72,6 @@
     "alt": "GREY RED STONE RAKHI"
   },
   {
-    "id": "HORSE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/HORSE RAKHI.jpg",
-    "alt": "HORSE RAKHI"
-  },
-  {
     "id": "KRISHNA RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/KRISHNA RAKHI.jpeg",
@@ -84,10 +84,10 @@
     "alt": "KUNDAN STONE"
   },
   {
-    "id": "MEENA FLORAL RAKHIS",
+    "id": "MAHARANI RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/MEENA FLORAL RAKHIS.jpg",
-    "alt": "MEENA FLORAL RAKHIS"
+    "url": "/images/rakhis/MAHARANI RAKHI.jpeg",
+    "alt": "MAHARANI RAKHI"
   },
   {
     "id": "MINION BRACELET",
@@ -108,34 +108,16 @@
     "alt": "MOP RAKHI 1"
   },
   {
-    "id": "MOP RAKHI 2",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/MOP RAKHI 2.jpg",
-    "alt": "MOP RAKHI 2"
-  },
-  {
-    "id": "MOP RAKHI 3",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/MOP RAKHI 3.jpg",
-    "alt": "MOP RAKHI 3"
-  },
-  {
-    "id": "MOP RAKHI 4",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/MOP RAKHI 4.jpg",
-    "alt": "MOP RAKHI 4"
-  },
-  {
     "id": "MOP RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/MOP RAKHI.jpg",
     "alt": "MOP RAKHI"
   },
   {
-    "id": "MOTI RAKHIS",
+    "id": "MOP RANI RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/MOTI RAKHIS.jpeg",
-    "alt": "MOTI RAKHIS"
+    "url": "/images/rakhis/MOP RANI RAKHI.jpeg",
+    "alt": "MOP RANI RAKHI"
   },
   {
     "id": "OM AND SWASTIK RAKHIS",
@@ -146,20 +128,32 @@
   {
     "id": "OM RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/OM RAKHI.jpg",
+    "url": "/images/rakhis/OM RAKHI.jpeg",
     "alt": "OM RAKHI"
   },
   {
-    "id": "PASTEL GREY RAKHI",
+    "id": "OM RUDRAKSHA RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/PASTEL GREY RAKHI.jpg",
-    "alt": "PASTEL GREY RAKHI"
+    "url": "/images/rakhis/OM RUDRAKSHA RAKHI.jpeg",
+    "alt": "OM RUDRAKSHA RAKHI"
+  },
+  {
+    "id": "PANCHRANG RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PANCHRANG RAKHI.jpeg",
+    "alt": "PANCHRANG RAKHI"
   },
   {
     "id": "PASTEL PINK RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/PASTEL PINK RAKHI.jpg",
     "alt": "PASTEL PINK RAKHI"
+  },
+  {
+    "id": "PETAL RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PETAL RAKHI.jpeg",
+    "alt": "PETAL RAKHI"
   },
   {
     "id": "PUNJABI RAKHI",
@@ -178,12 +172,6 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/PURPLE BRACELET.jpg",
     "alt": "PURPLE BRACELET"
-  },
-  {
-    "id": "RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/RAKHI.jpeg",
-    "alt": "RAKHI"
   },
   {
     "id": "RED EVIL EYE RAKHI",
@@ -216,6 +204,12 @@
     "alt": "RUDRAKSHA RAKHI COMBO"
   },
   {
+    "id": "RUDRAKSHA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RUDRAKSHA RAKHI.jpeg",
+    "alt": "RUDRAKSHA RAKHI"
+  },
+  {
     "id": "SHREENATHJI BRACELET",
     "categoryId": "rakhis",
     "url": "/images/rakhis/SHREENATHJI BRACELET.jpeg",
@@ -234,28 +228,10 @@
     "alt": "SILVER FINISH RAKHI"
   },
   {
-    "id": "SWASTIK CIRCLE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/SWASTIK CIRCLE RAKHI.jpg",
-    "alt": "SWASTIK CIRCLE RAKHI"
-  },
-  {
-    "id": "SWASTIK RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
-    "alt": "SWASTIK RAKHI"
-  },
-  {
     "id": "SWASTIK RAKHIS",
     "categoryId": "rakhis",
     "url": "/images/rakhis/SWASTIK RAKHIS.jpeg",
     "alt": "SWASTIK RAKHIS"
-  },
-  {
-    "id": "SWATIK SOLO RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/SWATIK SOLO RAKHI.jpg",
-    "alt": "SWATIK SOLO RAKHI"
   },
   {
     "id": "TAUBA TAUBA 2 RAKHI",
@@ -280,12 +256,6 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/UNI BRACELETS.jpg",
     "alt": "UNI BRACELETS"
-  },
-  {
-    "id": "YELLOW SQUARE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/YELLOW SQUARE RAKHI.jpg",
-    "alt": "YELLOW SQUARE RAKHI"
   },
   {
     "id": "BHABHI RAKHI",
@@ -318,24 +288,6 @@
     "alt": "EVIL EYE BRACELET"
   },
   {
-    "id": "EVIL EYE RAKHI BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/EVIL EYE RAKHI BRACELET.jpeg",
-    "alt": "EVIL EYE RAKHI BRACELET"
-  },
-  {
-    "id": "HORSE BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/HORSE BRACELET.jpg",
-    "alt": "HORSE BRACELET"
-  },
-  {
-    "id": "IMITATION BHABHI BRACELETS",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/IMITATION BHABHI BRACELETS.jpeg",
-    "alt": "IMITATION BHABHI BRACELETS"
-  },
-  {
     "id": "IMITATION BRACELETS",
     "categoryId": "bracelets",
     "url": "/images/bracelets/IMITATION BRACELETS.jpeg",
@@ -346,12 +298,6 @@
     "categoryId": "bracelets",
     "url": "/images/bracelets/MINION BRACELET.jpg",
     "alt": "MINION BRACELET"
-  },
-  {
-    "id": "MS BHABHI BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/MS BHABHI BRACELET.jpeg",
-    "alt": "MS BHABHI BRACELET"
   },
   {
     "id": "MS CHARMS BRACELET",
@@ -426,12 +372,6 @@
     "alt": "CHANDRAKOR RAKHI COMBO"
   },
   {
-    "id": "CYLINDER RAKHI",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/CYLINDER RAKHI.jpg",
-    "alt": "CYLINDER RAKHI"
-  },
-  {
     "id": "DIAMOND STONE COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/DIAMOND STONE COMBO.jpg",
@@ -450,34 +390,10 @@
     "alt": "GREY RED STONE COMBO"
   },
   {
-    "id": "HEXA RAKHI COMBO",
+    "id": "MAHARANI COMBO",
     "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/HEXA RAKHI COMBO.jpg",
-    "alt": "HEXA RAKHI COMBO"
-  },
-  {
-    "id": "HORSE RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/HORSE RAKHI COMBO.jpg",
-    "alt": "HORSE RAKHI COMBO"
-  },
-  {
-    "id": "LOTUS RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/LOTUS RAKHI COMBO.jpeg",
-    "alt": "LOTUS RAKHI COMBO"
-  },
-  {
-    "id": "LOTUS RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/LOTUS RAKHI COMBO.jpg",
-    "alt": "LOTUS RAKHI COMBO"
-  },
-  {
-    "id": "MEENA RED FLORAL RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/MEENA RED FLORAL RAKHI COMBO.jpg",
-    "alt": "MEENA RED FLORAL RAKHI COMBO"
+    "url": "/images/couple-rakhis/MAHARANI COMBO.jpeg",
+    "alt": "MAHARANI COMBO"
   },
   {
     "id": "MEENAKARI RAKHI COMBO",
@@ -510,12 +426,6 @@
     "alt": "PASTEL DROP Rakhi"
   },
   {
-    "id": "PASTEL GREY RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/PASTEL GREY RAKHI COMBO.jpg",
-    "alt": "PASTEL GREY RAKHI COMBO"
-  },
-  {
     "id": "PASTEL STONE RAKHI",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/PASTEL STONE RAKHI.jpg",
@@ -540,28 +450,10 @@
     "alt": "RAJWADI RAKHI COMBO"
   },
   {
-    "id": "RED DROP RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED DROP RAKHI COMBO.jpg",
-    "alt": "RED DROP RAKHI COMBO"
-  },
-  {
     "id": "RED EVIL EYE COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/RED EVIL EYE COMBO.jpeg",
     "alt": "RED EVIL EYE COMBO"
-  },
-  {
-    "id": "RED PLOKA RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED PLOKA RAKHI COMBO.jpg",
-    "alt": "RED PLOKA RAKHI COMBO"
-  },
-  {
-    "id": "RED STONE RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED STONE RAKHI COMBO.jpg",
-    "alt": "RED STONE RAKHI COMBO"
   },
   {
     "id": "RUDRAKSHA RAKHI COMBO",
@@ -576,6 +468,12 @@
     "alt": "RUDRAKSHA STONE RAKHI COMBO"
   },
   {
+    "id": "SURYAMUKHI LUMBDA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/SURYAMUKHI LUMBDA COMBO.jpeg",
+    "alt": "SURYAMUKHI LUMBDA COMBO"
+  },
+  {
     "id": "TAUBA 2.0 RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/TAUBA 2.0 RAKHI COMBO.jpg",
@@ -588,16 +486,16 @@
     "alt": "TRIANGLE IMITATION RAKHI"
   },
   {
-    "id": "YELLOW SQUARE COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/YELLOW SQUARE COMBO.jpg",
-    "alt": "YELLOW SQUARE COMBO"
-  },
-  {
     "id": "BIRDIE CHAIN",
     "categoryId": "immitation-jewellery",
     "url": "/images/immitation-jewellery/BIRDIE CHAIN.jpg",
     "alt": "BIRDIE CHAIN"
+  },
+  {
+    "id": "LOTUS CIRCLE WATCH",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/LOTUS CIRCLE WATCH.jpeg",
+    "alt": "LOTUS CIRCLE WATCH"
   },
   {
     "id": "LOTUS DROP",
@@ -612,58 +510,28 @@
     "alt": "MOP DROP NECKLACE"
   },
   {
+    "id": "MOP RECTANGLE WATCH",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/MOP RECTANGLE WATCH.jpeg",
+    "alt": "MOP RECTANGLE WATCH"
+  },
+  {
     "id": "QUIRKY MANGALSUTRA",
     "categoryId": "immitation-jewellery",
     "url": "/images/immitation-jewellery/QUIRKY MANGALSUTRA.jpg",
     "alt": "QUIRKY MANGALSUTRA"
   },
   {
-    "id": "BRO HANUMAN RAKHI",
+    "id": "DOREMON RAKHI",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO HANUMAN RAKHI.jpeg",
-    "alt": "BRO HANUMAN RAKHI"
+    "url": "/images/kids-rakhis/DOREMON RAKHI.jpeg",
+    "alt": "DOREMON RAKHI"
   },
   {
-    "id": "BRO HASH1 RAKHI",
+    "id": "GANESH RAKHI",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO HASH1 RAKHI.jpeg",
-    "alt": "BRO HASH1 RAKHI"
-  },
-  {
-    "id": "BRO RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO RAKHI.jpeg",
-    "alt": "BRO RAKHI"
-  },
-  {
-    "id": "CARTOON RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/CARTOON RAKHI.jpeg",
-    "alt": "CARTOON RAKHI"
-  },
-  {
-    "id": "CHOTA BHEEM RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/CHOTA BHEEM RAKHI.jpeg",
-    "alt": "CHOTA BHEEM RAKHI"
-  },
-  {
-    "id": "GANPATI RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/GANPATI RAKHI.jpeg",
-    "alt": "GANPATI RAKHI"
-  },
-  {
-    "id": "MINION BRACELET",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/MINION BRACELET.jpg",
-    "alt": "MINION BRACELET"
-  },
-  {
-    "id": "MINION RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/MINION RAKHI.jpg",
-    "alt": "MINION RAKHI"
+    "url": "/images/kids-rakhis/GANESH RAKHI.jpeg",
+    "alt": "GANESH RAKHI"
   },
   {
     "id": "NAME RAKHI OPTIONS",
@@ -672,28 +540,10 @@
     "alt": "NAME RAKHI OPTIONS"
   },
   {
-    "id": "POO RAKHI",
+    "id": "PEARL RAKHI FOR TODDLERS AND BABIES",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/POO RAKHI.jpeg",
-    "alt": "POO RAKHI"
-  },
-  {
-    "id": "TOM JERRY RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/TOM JERRY RAKHI.jpg",
-    "alt": "TOM JERRY RAKHI"
-  },
-  {
-    "id": "UNICORN RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/UNICORN RAKHI.jpeg",
-    "alt": "UNICORN RAKHI"
-  },
-  {
-    "id": "VEERA RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/VEERA RAKHI.jpeg",
-    "alt": "VEERA RAKHI"
+    "url": "/images/kids-rakhis/PEARL RAKHI FOR TODDLERS AND BABIES.jpeg",
+    "alt": "PEARL RAKHI FOR TODDLERS AND BABIES"
   },
   {
     "id": "BHAI RESIN RAKHI",

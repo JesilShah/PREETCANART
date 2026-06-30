@@ -1,51 +1,15 @@
 [
   {
-    "id": "BRO HANUMAN RAKHI",
+    "id": "DOREMON RAKHI",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO HANUMAN RAKHI.jpeg",
-    "alt": "BRO HANUMAN RAKHI"
+    "url": "/images/kids-rakhis/DOREMON RAKHI.jpeg",
+    "alt": "DOREMON RAKHI"
   },
   {
-    "id": "BRO HASH1 RAKHI",
+    "id": "GANESH RAKHI",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO HASH1 RAKHI.jpeg",
-    "alt": "BRO HASH1 RAKHI"
-  },
-  {
-    "id": "BRO RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/BRO RAKHI.jpeg",
-    "alt": "BRO RAKHI"
-  },
-  {
-    "id": "CARTOON RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/CARTOON RAKHI.jpeg",
-    "alt": "CARTOON RAKHI"
-  },
-  {
-    "id": "CHOTA BHEEM RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/CHOTA BHEEM RAKHI.jpeg",
-    "alt": "CHOTA BHEEM RAKHI"
-  },
-  {
-    "id": "GANPATI RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/GANPATI RAKHI.jpeg",
-    "alt": "GANPATI RAKHI"
-  },
-  {
-    "id": "MINION BRACELET",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/MINION BRACELET.jpg",
-    "alt": "MINION BRACELET"
-  },
-  {
-    "id": "MINION RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/MINION RAKHI.jpg",
-    "alt": "MINION RAKHI"
+    "url": "/images/kids-rakhis/GANESH RAKHI.jpeg",
+    "alt": "GANESH RAKHI"
   },
   {
     "id": "NAME RAKHI OPTIONS",
@@ -54,27 +18,9 @@
     "alt": "NAME RAKHI OPTIONS"
   },
   {
-    "id": "POO RAKHI",
+    "id": "PEARL RAKHI FOR TODDLERS AND BABIES",
     "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/POO RAKHI.jpeg",
-    "alt": "POO RAKHI"
-  },
-  {
-    "id": "TOM JERRY RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/TOM JERRY RAKHI.jpg",
-    "alt": "TOM JERRY RAKHI"
-  },
-  {
-    "id": "UNICORN RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/UNICORN RAKHI.jpeg",
-    "alt": "UNICORN RAKHI"
-  },
-  {
-    "id": "VEERA RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/VEERA RAKHI.jpeg",
-    "alt": "VEERA RAKHI"
+    "url": "/images/kids-rakhis/PEARL RAKHI FOR TODDLERS AND BABIES.jpeg",
+    "alt": "PEARL RAKHI FOR TODDLERS AND BABIES"
   }
 ]
