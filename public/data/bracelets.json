@@ -30,24 +30,6 @@
     "alt": "EVIL EYE BRACELET"
   },
   {
-    "id": "EVIL EYE RAKHI BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/EVIL EYE RAKHI BRACELET.jpeg",
-    "alt": "EVIL EYE RAKHI BRACELET"
-  },
-  {
-    "id": "HORSE BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/HORSE BRACELET.jpg",
-    "alt": "HORSE BRACELET"
-  },
-  {
-    "id": "IMITATION BHABHI BRACELETS",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/IMITATION BHABHI BRACELETS.jpeg",
-    "alt": "IMITATION BHABHI BRACELETS"
-  },
-  {
     "id": "IMITATION BRACELETS",
     "categoryId": "bracelets",
     "url": "/images/bracelets/IMITATION BRACELETS.jpeg",
@@ -58,12 +40,6 @@
     "categoryId": "bracelets",
     "url": "/images/bracelets/MINION BRACELET.jpg",
     "alt": "MINION BRACELET"
-  },
-  {
-    "id": "MS BHABHI BRACELET",
-    "categoryId": "bracelets",
-    "url": "/images/bracelets/MS BHABHI BRACELET.jpeg",
-    "alt": "MS BHABHI BRACELET"
   },
   {
     "id": "MS CHARMS BRACELET",

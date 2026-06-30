@@ -36,12 +36,6 @@
     "alt": "CHANDRAKOR RAKHI COMBO"
   },
   {
-    "id": "CYLINDER RAKHI",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/CYLINDER RAKHI.jpg",
-    "alt": "CYLINDER RAKHI"
-  },
-  {
     "id": "DIAMOND STONE COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/DIAMOND STONE COMBO.jpg",
@@ -60,34 +54,10 @@
     "alt": "GREY RED STONE COMBO"
   },
   {
-    "id": "HEXA RAKHI COMBO",
+    "id": "MAHARANI COMBO",
     "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/HEXA RAKHI COMBO.jpg",
-    "alt": "HEXA RAKHI COMBO"
-  },
-  {
-    "id": "HORSE RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/HORSE RAKHI COMBO.jpg",
-    "alt": "HORSE RAKHI COMBO"
-  },
-  {
-    "id": "LOTUS RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/LOTUS RAKHI COMBO.jpeg",
-    "alt": "LOTUS RAKHI COMBO"
-  },
-  {
-    "id": "LOTUS RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/LOTUS RAKHI COMBO.jpg",
-    "alt": "LOTUS RAKHI COMBO"
-  },
-  {
-    "id": "MEENA RED FLORAL RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/MEENA RED FLORAL RAKHI COMBO.jpg",
-    "alt": "MEENA RED FLORAL RAKHI COMBO"
+    "url": "/images/couple-rakhis/MAHARANI COMBO.jpeg",
+    "alt": "MAHARANI COMBO"
   },
   {
     "id": "MEENAKARI RAKHI COMBO",
@@ -120,12 +90,6 @@
     "alt": "PASTEL DROP Rakhi"
   },
   {
-    "id": "PASTEL GREY RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/PASTEL GREY RAKHI COMBO.jpg",
-    "alt": "PASTEL GREY RAKHI COMBO"
-  },
-  {
     "id": "PASTEL STONE RAKHI",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/PASTEL STONE RAKHI.jpg",
@@ -150,28 +114,10 @@
     "alt": "RAJWADI RAKHI COMBO"
   },
   {
-    "id": "RED DROP RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED DROP RAKHI COMBO.jpg",
-    "alt": "RED DROP RAKHI COMBO"
-  },
-  {
     "id": "RED EVIL EYE COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/RED EVIL EYE COMBO.jpeg",
     "alt": "RED EVIL EYE COMBO"
-  },
-  {
-    "id": "RED PLOKA RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED PLOKA RAKHI COMBO.jpg",
-    "alt": "RED PLOKA RAKHI COMBO"
-  },
-  {
-    "id": "RED STONE RAKHI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/RED STONE RAKHI COMBO.jpg",
-    "alt": "RED STONE RAKHI COMBO"
   },
   {
     "id": "RUDRAKSHA RAKHI COMBO",
@@ -186,6 +132,12 @@
     "alt": "RUDRAKSHA STONE RAKHI COMBO"
   },
   {
+    "id": "SURYAMUKHI LUMBDA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/SURYAMUKHI LUMBDA COMBO.jpeg",
+    "alt": "SURYAMUKHI LUMBDA COMBO"
+  },
+  {
     "id": "TAUBA 2.0 RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/TAUBA 2.0 RAKHI COMBO.jpg",
@@ -196,11 +148,5 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/TRIANGLE IMITATION RAKHI.jpg",
     "alt": "TRIANGLE IMITATION RAKHI"
-  },
-  {
-    "id": "YELLOW SQUARE COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/YELLOW SQUARE COMBO.jpg",
-    "alt": "YELLOW SQUARE COMBO"
   }
 ]
