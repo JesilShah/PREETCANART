@@ -122,6 +122,33 @@ html {
 
 /* Add shadow to the WhatsApp button */
 .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  gap: 2rem;
+  animation: marquee 22s linear infinite;
+}
+
+.marquee:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }

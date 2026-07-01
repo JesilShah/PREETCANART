@@ -1,5 +1,142 @@
 [
   {
+    "id": "OM RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/OM RAKHI.jpeg",
+    "alt": "OM RAKHI",
+    "price": ""
+  },
+  {
+    "id": "OM RUDRAKSHA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/OM RUDRAKSHA RAKHI.jpeg",
+    "alt": "OM RUDRAKSHA RAKHI",
+    "price": ""
+  },
+  {
+    "id": "PANCHRANG RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PANCHRANG RAKHI.jpeg",
+    "alt": "PANCHRANG RAKHI",
+    "price": ""
+  },
+  {
+    "id": "MAHARANI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MAHARANI RAKHI.jpeg",
+    "alt": "MAHARANI RAKHI",
+    "price": ""
+  },
+  {
+    "id": "EVIL EYE RUDRAKSHA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RUDRAKSHA RAKHI.jpeg",
+    "alt": "EVIL EYE RUDRAKSHA RAKHI",
+    "price": ""
+  },
+  {
+    "id": "EVIL EYE RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE RAKHI.jpeg",
+    "alt": "EVIL EYE RAKHI",
+    "price": ""
+  },
+  {
+    "id": "PASTEL RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PASTEL RAKHI.jpeg",
+    "alt": "PASTEL RAKHI",
+    "price": ""
+  },
+  {
+    "id": "GREEN KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/GREEN KUNDAN RAKHI.jpeg",
+    "alt": "GREEN KUNDAN RAKHI",
+    "price": ""
+  },
+  {
+    "id": "KRISHNA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/KRISHNA RAKHI.jpeg",
+    "alt": "KRISHNA RAKHI",
+    "price": ""
+  },
+  {
+    "id": "DOREMON RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/DOREMON RAKHI.jpeg",
+    "alt": "DOREMON RAKHI",
+    "price": ""
+  },
+  {
+    "id": "GANESH RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/GANESH RAKHI.jpeg",
+    "alt": "GANESH RAKHI",
+    "price": ""
+  },
+  {
+    "id": "PEARL RAKHI FOR TODDLERS AND BABIES",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/PEARL RAKHI FOR TODDLERS AND BABIES.jpeg",
+    "alt": "PEARL RAKHI FOR TODDLERS AND BABIES",
+    "price": ""
+  },
+  {
+    "id": "RUDRAKSHA RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RUDRAKSHA RAKHI.jpeg",
+    "alt": "RUDRAKSHA RAKHI",
+    "price": ""
+  },
+  {
+    "id": "MOP RANI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RANI RAKHI.jpeg",
+    "alt": "MOP RANI RAKHI",
+    "price": ""
+  },
+  {
+    "id": "RED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED KUNDAN RAKHI.jpeg",
+    "alt": "RED KUNDAN RAKHI",
+    "price": ""
+  },
+  {
+    "id": "MAHARANI COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MAHARANI COMBO.jpeg",
+    "alt": "MAHARANI COMBO",
+    "price": ""
+  },
+  {
+    "id": "SURYAMUKHI LUMBA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/SURYAMUKHI LUMBA COMBO.jpeg",
+    "alt": "SURYAMUKHI LUMBA COMBO",
+    "price": ""
+  },
+  {
+    "id": "KASHMIRI WATCH OPTION 1",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 1.jpeg",
+    "alt": "KASHMIRI WATCH 1",
+    "isNewLaunch": true,
+    "bannerOrder": 1,
+    "price": ""
+  },
+  {
+    "id": "KASHMIRI WATCH OPTION 2",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 2.jpeg",
+    "alt": "KASHMIRI WATCH 2",
+    "isNewLaunch": true,
+    "bannerOrder": 1,
+    "price": ""
+  },
+  {
     "id": "ADJUSTABLE RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/ADJUSTABLE RAKHI.jpeg",
@@ -439,138 +576,5 @@
     "url": "/images/christmas/SantaBracelet.JPG",
     "alt": "Santa Bracelet",
     "price": "₹ 200"
-  },
-  {
-    "id": "OM RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/OM RAKHI.jpeg",
-    "alt": "OM RAKHI",
-    "price": ""
-  },
-  {
-    "id": "OM RUDRAKSHA RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/OM RUDRAKSHA RAKHI.jpeg",
-    "alt": "OM RUDRAKSHA RAKHI",
-    "price": ""
-  },
-  {
-    "id": "PANCHRANG RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/PANCHRANG RAKHI.jpeg",
-    "alt": "PANCHRANG RAKHI",
-    "price": ""
-  },
-  {
-    "id": "MAHARANI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/MAHARANI RAKHI.jpeg",
-    "alt": "MAHARANI RAKHI",
-    "price": ""
-  },
-  {
-    "id": "EVIL EYE RUDRAKSHA RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE RUDRAKSHA RAKHI.jpeg",
-    "alt": "EVIL EYE RUDRAKSHA RAKHI",
-    "price": ""
-  },
-  {
-    "id": "EVIL EYE RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/EVIL EYE RAKHI.jpeg",
-    "alt": "EVIL EYE RAKHI",
-    "price": ""
-  },
-  {
-    "id": "PASTEL RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/PASTEL RAKHI.jpeg",
-    "alt": "PASTEL RAKHI",
-    "price": ""
-  },
-  {
-    "id": "GREEN KUNDAN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/GREEN KUNDAN RAKHI.jpeg",
-    "alt": "GREEN KUNDAN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "KRISHNA RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/KRISHNA RAKHI.jpeg",
-    "alt": "KRISHNA RAKHI",
-    "price": ""
-  },
-  {
-    "id": "DOREMON RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/DOREMON RAKHI.jpeg",
-    "alt": "DOREMON RAKHI",
-    "price": ""
-  },
-  {
-    "id": "GANESH RAKHI",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/GANESH RAKHI.jpeg",
-    "alt": "GANESH RAKHI",
-    "price": ""
-  },
-  {
-    "id": "PEARL RAKHI FOR TODDLERS AND BABIES",
-    "categoryId": "kids-rakhis",
-    "url": "/images/kids-rakhis/PEARL RAKHI FOR TODDLERS AND BABIES.jpeg",
-    "alt": "PEARL RAKHI FOR TODDLERS AND BABIES",
-    "price": ""
-  },
-  {
-    "id": "RUDRAKSHA RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/RUDRAKSHA RAKHI.jpeg",
-    "alt": "RUDRAKSHA RAKHI",
-    "price": ""
-  },
-  {
-    "id": "MOP RANI RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/MOP RANI RAKHI.jpeg",
-    "alt": "MOP RANI RAKHI",
-    "price": ""
-  },
-  {
-    "id": "RED KUNDAN RAKHI",
-    "categoryId": "rakhis",
-    "url": "/images/rakhis/RED KUNDAN RAKHI.jpeg",
-    "alt": "RED KUNDAN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "MAHARANI COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/MAHARANI COMBO.jpeg",
-    "alt": "MAHARANI COMBO",
-    "price": ""
-  },
-  {
-    "id": "SURYAMUKHI LUMBDA COMBO",
-    "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/SURYAMUKHI LUMBDA COMBO.jpeg",
-    "alt": "SURYAMUKHI LUMBDA COMBO",
-    "price": ""
-  },
-  {
-    "id": "LOTUS CIRCLE WATCH",
-    "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/LOTUS CIRCLE WATCH.jpeg",
-    "alt": "LOTUS CIRCLE WATCH",
-    "price": ""
-  },
-  {
-    "id": "MOP RECTANGLE WATCH",
-    "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/MOP RECTANGLE WATCH.jpeg",
-    "alt": "MOP RECTANGLE WATCH",
-    "price": ""
   }
 ]

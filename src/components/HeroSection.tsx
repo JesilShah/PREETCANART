@@ -1,8 +1,9 @@
 //import React from 'react';
 import { motion } from 'framer-motion';
 import LOGO from '/images/PREETCANARTLOGO.png';
+import NewLaunchBanner from './NewLaunchBanner';
 //import KAIBEELOGO from '/images/KAIBEE.jpg';
-import CHRISTMASLOGO from '/images/CHRISTMAS-2.png';
+//import CHRISTMASLOGO from '/images/CHRISTMAS-2.png';
 
 const HeroSection = () => {
   const scrollToCategories = () => {
@@ -47,7 +48,7 @@ const HeroSection = () => {
             />
           </a>
         </motion.div> */}
-
+        <NewLaunchBanner />
         {/* <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
