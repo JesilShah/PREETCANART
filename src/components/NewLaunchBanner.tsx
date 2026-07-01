@@ -58,14 +58,14 @@ const NewLaunchBanner = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
-              className='w-full max-w-md'
+              className='w-full max-w-2xl'
             >
               <Link to={`/category/${bannerImages[current].categoryId}`}>
                 <div className='relative overflow-hidden rounded-lg shadow-md aspect-[4/3] bg-beige'>
                   <img
                     src={bannerImages[current].url}
                     alt={bannerImages[current].alt}
-                    className='w-full h-full object-contain aspect-square transition-transform duration-300 hover:scale-105'
+                    className='w-full h-full object-cover aspect-square transition-transform duration-300 hover:scale-105'
                   />
                 </div>
               </Link>
