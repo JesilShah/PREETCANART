@@ -6,10 +6,16 @@
     "alt": "BIRDIE CHAIN"
   },
   {
-    "id": "LOTUS CIRCLE WATCH",
+    "id": "KASHMIRI WATCH 1",
     "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/LOTUS CIRCLE WATCH.jpeg",
-    "alt": "LOTUS CIRCLE WATCH"
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 1.jpeg",
+    "alt": "KASHMIRI WATCH 1"
+  },
+  {
+    "id": "KASHMIRI WATCH 2",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 2.jpeg",
+    "alt": "KASHMIRI WATCH 2"
   },
   {
     "id": "LOTUS DROP",
@@ -22,12 +28,6 @@
     "categoryId": "immitation-jewellery",
     "url": "/images/immitation-jewellery/MOP DROP NECKLACE.jpg",
     "alt": "MOP DROP NECKLACE"
-  },
-  {
-    "id": "MOP RECTANGLE WATCH",
-    "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/MOP RECTANGLE WATCH.jpeg",
-    "alt": "MOP RECTANGLE WATCH"
   },
   {
     "id": "QUIRKY MANGALSUTRA",

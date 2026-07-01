@@ -18,6 +18,18 @@
     "alt": "BLUE FLOWER IMITATION"
   },
   {
+    "id": "BLUE MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE MEENAKARI RAKHI.jpeg",
+    "alt": "BLUE MEENAKARI RAKHI"
+  },
+  {
+    "id": "BLUE PASTEL RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE PASTEL RAKHI.jpeg",
+    "alt": "BLUE PASTEL RAKHI"
+  },
+  {
     "id": "BLUE STONE DROP RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BLUE STONE DROP RAKHI.jpeg",
@@ -28,6 +40,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/BLUE STONE IMITATION RAKHI.jpeg",
     "alt": "BLUE STONE IMITATION RAKHI"
+  },
+  {
+    "id": "BRAIDED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BRAIDED KUNDAN RAKHI.jpeg",
+    "alt": "BRAIDED KUNDAN RAKHI"
   },
   {
     "id": "CHAND RAKHI",
@@ -70,6 +88,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/GREY RED STONE RAKHI.jpg",
     "alt": "GREY RED STONE RAKHI"
+  },
+  {
+    "id": "JHADAU RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/JHADAU RAKHI.jpeg",
+    "alt": "JHADAU RAKHI"
   },
   {
     "id": "KRISHNA RAKHI",
@@ -186,6 +210,12 @@
     "alt": "RED KUNDAN RAKHI"
   },
   {
+    "id": "RED MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED MEENAKARI RAKHI.jpeg",
+    "alt": "RED MEENAKARI RAKHI"
+  },
+  {
     "id": "RUDRAKSHA DIAMOND RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/RUDRAKSHA DIAMOND RAKHI.jpeg",
@@ -226,6 +256,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/SILVER FINISH RAKHI.jpeg",
     "alt": "SILVER FINISH RAKHI"
+  },
+  {
+    "id": "SWASTIK RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
+    "alt": "SWASTIK RAKHI"
   },
   {
     "id": "SWASTIK RAKHIS",

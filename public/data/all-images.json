@@ -18,6 +18,18 @@
     "alt": "BLUE FLOWER IMITATION"
   },
   {
+    "id": "BLUE MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE MEENAKARI RAKHI.jpeg",
+    "alt": "BLUE MEENAKARI RAKHI"
+  },
+  {
+    "id": "BLUE PASTEL RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE PASTEL RAKHI.jpeg",
+    "alt": "BLUE PASTEL RAKHI"
+  },
+  {
     "id": "BLUE STONE DROP RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BLUE STONE DROP RAKHI.jpeg",
@@ -28,6 +40,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/BLUE STONE IMITATION RAKHI.jpeg",
     "alt": "BLUE STONE IMITATION RAKHI"
+  },
+  {
+    "id": "BRAIDED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BRAIDED KUNDAN RAKHI.jpeg",
+    "alt": "BRAIDED KUNDAN RAKHI"
   },
   {
     "id": "CHAND RAKHI",
@@ -70,6 +88,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/GREY RED STONE RAKHI.jpg",
     "alt": "GREY RED STONE RAKHI"
+  },
+  {
+    "id": "JHADAU RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/JHADAU RAKHI.jpeg",
+    "alt": "JHADAU RAKHI"
   },
   {
     "id": "KRISHNA RAKHI",
@@ -150,10 +174,10 @@
     "alt": "PASTEL PINK RAKHI"
   },
   {
-    "id": "PETAL RAKHI",
+    "id": "PASTEL RAKHI",
     "categoryId": "rakhis",
-    "url": "/images/rakhis/PETAL RAKHI.jpeg",
-    "alt": "PETAL RAKHI"
+    "url": "/images/rakhis/PASTEL RAKHI.jpeg",
+    "alt": "PASTEL RAKHI"
   },
   {
     "id": "PUNJABI RAKHI",
@@ -184,6 +208,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/RED KUNDAN RAKHI.jpeg",
     "alt": "RED KUNDAN RAKHI"
+  },
+  {
+    "id": "RED MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED MEENAKARI RAKHI.jpeg",
+    "alt": "RED MEENAKARI RAKHI"
   },
   {
     "id": "RUDRAKSHA DIAMOND RAKHI",
@@ -226,6 +256,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/SILVER FINISH RAKHI.jpeg",
     "alt": "SILVER FINISH RAKHI"
+  },
+  {
+    "id": "SWASTIK RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
+    "alt": "SWASTIK RAKHI"
   },
   {
     "id": "SWASTIK RAKHIS",
@@ -408,6 +444,24 @@
     "alt": "MOP DROP COMBO"
   },
   {
+    "id": "MOP PAAN RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PAAN RAKHI.jpeg",
+    "alt": "MOP PAAN RAKHI"
+  },
+  {
+    "id": "MOP PEACOCK RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PEACOCK RAKHI.jpeg",
+    "alt": "MOP PEACOCK RAKHI"
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP RAKHI.jpeg",
+    "alt": "MOP RAKHI"
+  },
+  {
     "id": "MULTI IMITATION RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MULTI IMITATION RAKHI COMBO.jpg",
@@ -468,16 +522,22 @@
     "alt": "RUDRAKSHA STONE RAKHI COMBO"
   },
   {
-    "id": "SURYAMUKHI LUMBDA COMBO",
+    "id": "SURYAMUKHI LUMBA COMBO",
     "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/SURYAMUKHI LUMBDA COMBO.jpeg",
-    "alt": "SURYAMUKHI LUMBDA COMBO"
+    "url": "/images/couple-rakhis/SURYAMUKHI LUMBA COMBO.jpeg",
+    "alt": "SURYAMUKHI LUMBA COMBO"
   },
   {
     "id": "TAUBA 2.0 RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/TAUBA 2.0 RAKHI COMBO.jpg",
     "alt": "TAUBA 2.0 RAKHI COMBO"
+  },
+  {
+    "id": "TRADITIONAL RAKHI SET",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/TRADITIONAL RAKHI SET.jpeg",
+    "alt": "TRADITIONAL RAKHI SET"
   },
   {
     "id": "TRIANGLE IMITATION RAKHI",
@@ -492,10 +552,16 @@
     "alt": "BIRDIE CHAIN"
   },
   {
-    "id": "LOTUS CIRCLE WATCH",
+    "id": "KASHMIRI WATCH 1",
     "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/LOTUS CIRCLE WATCH.jpeg",
-    "alt": "LOTUS CIRCLE WATCH"
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 1.jpeg",
+    "alt": "KASHMIRI WATCH 1"
+  },
+  {
+    "id": "KASHMIRI WATCH 2",
+    "categoryId": "immitation-jewellery",
+    "url": "/images/immitation-jewellery/KASHMIRI WATCH 2.jpeg",
+    "alt": "KASHMIRI WATCH 2"
   },
   {
     "id": "LOTUS DROP",
@@ -508,12 +574,6 @@
     "categoryId": "immitation-jewellery",
     "url": "/images/immitation-jewellery/MOP DROP NECKLACE.jpg",
     "alt": "MOP DROP NECKLACE"
-  },
-  {
-    "id": "MOP RECTANGLE WATCH",
-    "categoryId": "immitation-jewellery",
-    "url": "/images/immitation-jewellery/MOP RECTANGLE WATCH.jpeg",
-    "alt": "MOP RECTANGLE WATCH"
   },
   {
     "id": "QUIRKY MANGALSUTRA",
@@ -534,6 +594,12 @@
     "alt": "GANESH RAKHI"
   },
   {
+    "id": "KIDS BRAIDED RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/KIDS BRAIDED RAKHI.jpeg",
+    "alt": "KIDS BRAIDED RAKHI"
+  },
+  {
     "id": "NAME RAKHI OPTIONS",
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/NAME RAKHI OPTIONS.jpeg",
@@ -546,34 +612,16 @@
     "alt": "PEARL RAKHI FOR TODDLERS AND BABIES"
   },
   {
-    "id": "BHAI RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BHAI RESIN RAKHI.jpeg",
-    "alt": "BHAI RESIN RAKHI"
+    "id": "TRENDY BRACELETS OPTION 1",
+    "categoryId": "trendy-bracelets",
+    "url": "/images/trendy-bracelets/TRENDY BRACELETS OPTION 1.jpeg",
+    "alt": "TRENDY BRACELETS OPTION 1"
   },
   {
-    "id": "BHAIYA RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BHAIYA RESIN RAKHI.jpeg",
-    "alt": "BHAIYA RESIN RAKHI"
-  },
-  {
-    "id": "BRO RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BRO RESIN RAKHI.jpeg",
-    "alt": "BRO RESIN RAKHI"
-  },
-  {
-    "id": "COOL BHAI RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/COOL BHAI RESIN RAKHI.jpeg",
-    "alt": "COOL BHAI RESIN RAKHI"
-  },
-  {
-    "id": "KING BRO RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/KING BRO RESIN RAKHI.jpeg",
-    "alt": "KING BRO RESIN RAKHI"
+    "id": "TRENDY BRACELETS OPTION 2",
+    "categoryId": "trendy-bracelets",
+    "url": "/images/trendy-bracelets/TRENDY BRACELETS OPTION 2.jpeg",
+    "alt": "TRENDY BRACELETS OPTION 2"
   },
   {
     "id": "ChristmasCharmsBracelet",
