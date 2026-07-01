@@ -119,6 +119,101 @@
     "price": ""
   },
   {
+    "id": "MOP PAAN RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PAAN RAKHI.jpeg",
+    "alt": "MOP PAAN RAKHI",
+    "price": ""
+  },
+  {
+    "id": "MOP PEACOCK RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PEACOCK RAKHI.jpeg",
+    "alt": "MOP PEACOCK RAKHI",
+    "price": ""
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP RAKHI.jpeg",
+    "alt": "MOP RAKHI",
+    "price": ""
+  },
+  {
+    "id": "TRADITIONAL RAKHI SET",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/TRADITIONAL RAKHI SET.jpeg",
+    "alt": "TRADITIONAL RAKHI SET",
+    "price": ""
+  },
+  {
+    "id": "KIDS BRAIDED RAKHI",
+    "categoryId": "kids-rakhis",
+    "url": "/images/kids-rakhis/KIDS BRAIDED RAKHI.jpeg",
+    "alt": "KIDS BRAIDED RAKHI",
+    "price": ""
+  },
+  {
+    "id": "SWASTIK RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/SWASTIK RAKHI.jpeg",
+    "alt": "SWASTIK RAKHI",
+    "price": ""
+  },
+  {
+    "id": "RED MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RED MEENAKARI RAKHI.jpeg",
+    "alt": "RED MEENAKARI RAKHI",
+    "price": ""
+  },
+  {
+    "id": "JHADAU RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/JHADAU RAKHI.jpeg",
+    "alt": "JHADAU RAKHI",
+    "price": ""
+  },
+  {
+    "id": "BRAIDED KUNDAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BRAIDED KUNDAN RAKHI.jpeg",
+    "alt": "BRAIDED KUNDAN RAKHI",
+    "price": ""
+  },
+  {
+    "id": "BLUE MEENAKARI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE MEENAKARI RAKHI.jpeg",
+    "alt": "BLUE MEENAKARI RAKHI",
+    "price": ""
+  },
+  {
+    "id": "BLUE PASTEL RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/BLUE PASTEL RAKHI.jpeg",
+    "alt": "BLUE PASTEL RAKHI",
+    "price": ""
+  },
+  {
+    "id": "TRENDY BRACELETS OPTION 1",
+    "categoryId": "trendy-bracelets",
+    "url": "/images/trendy-bracelets/TRENDY BRACELETS OPTION 1.jpeg",
+    "alt": "TRENDY BRACELETS OPTION 1",
+    "isNewLaunch": true,
+    "bannerOrder": 3,
+    "price": ""
+  },
+  {
+    "id": "TRENDY BRACELETS OPTION 2",
+    "categoryId": "trendy-bracelets",
+    "url": "/images/trendy-bracelets/TRENDY BRACELETS OPTION 2.jpeg",
+    "alt": "TRENDY BRACELETS OPTION 2",
+    "isNewLaunch": true,
+    "bannerOrder": 4,
+    "price": ""
+  },
+  {
     "id": "KASHMIRI WATCH OPTION 1",
     "categoryId": "immitation-jewellery",
     "url": "/images/immitation-jewellery/KASHMIRI WATCH 1.jpeg",
@@ -133,7 +228,7 @@
     "url": "/images/immitation-jewellery/KASHMIRI WATCH 2.jpeg",
     "alt": "KASHMIRI WATCH 2",
     "isNewLaunch": true,
-    "bannerOrder": 1,
+    "bannerOrder": 2,
     "price": ""
   },
   {
@@ -526,41 +621,6 @@
     "categoryId": "kids-rakhis",
     "url": "/images/kids-rakhis/NAME RAKHI OPTIONS.jpeg",
     "alt": "NAME RAKHI OPTIONS",
-    "price": ""
-  },
-  {
-    "id": "BHAI RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BHAI RESIN RAKHI.jpeg",
-    "alt": "BHAI RESIN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "BHAIYA RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BHAIYA RESIN RAKHI.jpeg",
-    "alt": "BHAIYA RESIN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "BRO RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/BRO RESIN RAKHI.jpeg",
-    "alt": "BRO RESIN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "COOL BHAI RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/COOL BHAI RESIN RAKHI.jpeg",
-    "alt": "COOL BHAI RESIN RAKHI",
-    "price": ""
-  },
-  {
-    "id": "KING BRO RESIN RAKHI",
-    "categoryId": "resin-rakhis",
-    "url": "/images/resin-rakhis/KING BRO RESIN RAKHI.jpeg",
-    "alt": "KING BRO RESIN RAKHI",
     "price": ""
   },
   {

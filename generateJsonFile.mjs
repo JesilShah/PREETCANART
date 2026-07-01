@@ -13,8 +13,8 @@ const categories = [
   'couple-rakhis',
   'immitation-jewellery',
   'kids-rakhis',
-  'resin-rakhis',
-  'christmas'
+  'trendy-bracelets',
+  'christmas',
 ];
 
 // Input base folder (relative to this script)
@@ -53,7 +53,7 @@ const generateImageLists = () => {
     fs.writeFileSync(
       path.join(outputPath, `${category}.json`),
       JSON.stringify(imageData, null, 2),
-      'utf8'
+      'utf8',
     );
 
     allImages.push(...imageData);
@@ -63,7 +63,7 @@ const generateImageLists = () => {
   fs.writeFileSync(
     path.join(outputPath, `all-images.json`),
     JSON.stringify(allImages, null, 2),
-    'utf8'
+    'utf8',
   );
 
   console.log('✅ Image JSON files generated successfully.');

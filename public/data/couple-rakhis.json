@@ -72,6 +72,24 @@
     "alt": "MOP DROP COMBO"
   },
   {
+    "id": "MOP PAAN RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PAAN RAKHI.jpeg",
+    "alt": "MOP PAAN RAKHI"
+  },
+  {
+    "id": "MOP PEACOCK RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP PEACOCK RAKHI.jpeg",
+    "alt": "MOP PEACOCK RAKHI"
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP RAKHI.jpeg",
+    "alt": "MOP RAKHI"
+  },
+  {
     "id": "MULTI IMITATION RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MULTI IMITATION RAKHI COMBO.jpg",
@@ -132,16 +150,22 @@
     "alt": "RUDRAKSHA STONE RAKHI COMBO"
   },
   {
-    "id": "SURYAMUKHI LUMBDA COMBO",
+    "id": "SURYAMUKHI LUMBA COMBO",
     "categoryId": "couple-rakhis",
-    "url": "/images/couple-rakhis/SURYAMUKHI LUMBDA COMBO.jpeg",
-    "alt": "SURYAMUKHI LUMBDA COMBO"
+    "url": "/images/couple-rakhis/SURYAMUKHI LUMBA COMBO.jpeg",
+    "alt": "SURYAMUKHI LUMBA COMBO"
   },
   {
     "id": "TAUBA 2.0 RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/TAUBA 2.0 RAKHI COMBO.jpg",
     "alt": "TAUBA 2.0 RAKHI COMBO"
+  },
+  {
+    "id": "TRADITIONAL RAKHI SET",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/TRADITIONAL RAKHI SET.jpeg",
+    "alt": "TRADITIONAL RAKHI SET"
   },
   {
     "id": "TRIANGLE IMITATION RAKHI",
