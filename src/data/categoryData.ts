@@ -32,10 +32,10 @@ export const categoryData: Category[] = [
       'Stylish bracelets that can be worn beyond the festival, keeping the bond alive throughout the year.',
   },
   {
-    id: 'trendy-bracelets',
-    name: 'Trendy Bracelet',
+    id: 'braided-elegance',
+    name: 'Braided Elegance',
     description:
-      'Trendy Bracelets designed based on ongoing latest trends in the market',
+      'Braided high quality bracelet Perfect for enhancing both your casual and formal looks. It’s modern, it’s stylish and it’s versatile',
   },
   {
     id: 'immitation-jewellery',
