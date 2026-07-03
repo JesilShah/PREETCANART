@@ -13,7 +13,7 @@ const categories = [
   'couple-rakhis',
   'immitation-jewellery',
   'kids-rakhis',
-  'trendy-bracelets',
+  'braided-elegance',
   'christmas',
 ];
 
