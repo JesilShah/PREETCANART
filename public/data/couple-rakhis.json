@@ -30,6 +30,12 @@
     "alt": "CHAND RAKHI COMBO"
   },
   {
+    "id": "CHANDRAKOR LUMBA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/CHANDRAKOR LUMBA COMBO.jpeg",
+    "alt": "CHANDRAKOR LUMBA COMBO"
+  },
+  {
     "id": "CHANDRAKOR RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/CHANDRAKOR RAKHI COMBO.jpg",
@@ -46,6 +52,12 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/EVIL EYE RAKHI COMBO.jpg",
     "alt": "EVIL EYE RAKHI COMBO"
+  },
+  {
+    "id": "GREEN LOTUS RAKHI COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/GREEN LOTUS RAKHI COMBO.jpeg",
+    "alt": "GREEN LOTUS RAKHI COMBO"
   },
   {
     "id": "GREY RED STONE COMBO",
@@ -72,6 +84,12 @@
     "alt": "MOP DROP COMBO"
   },
   {
+    "id": "MOP LUMBA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP LUMBA COMBO.jpeg",
+    "alt": "MOP LUMBA COMBO"
+  },
+  {
     "id": "MOP PAAN RAKHI",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP PAAN RAKHI.jpeg",
@@ -82,6 +100,12 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP PEACOCK RAKHI.jpeg",
     "alt": "MOP PEACOCK RAKHI"
+  },
+  {
+    "id": "MOP RAKHI COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP RAKHI COMBO.jpeg",
+    "alt": "MOP RAKHI COMBO"
   },
   {
     "id": "MOP RAKHI",
