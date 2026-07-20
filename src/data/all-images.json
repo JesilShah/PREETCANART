@@ -137,7 +137,7 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP RAKHI.jpeg",
     "alt": "MOP RAKHI",
-    "price": "₹ 140"
+    "price": "₹ 160"
   },
   {
     "id": "TRADITIONAL RAKHI SET",
@@ -196,6 +196,69 @@
     "price": "₹ 40"
   },
   {
+    "id": "CHANDRAKOR LUMBA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/CHANDRAKOR LUMBA COMBO.jpeg",
+    "alt": "CHANDRAKOR LUMBA COMBO",
+    "price": "₹ 180"
+  },
+  {
+    "id": "GREEN LOTUS RAKHI COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/GREEN LOTUS RAKHI COMBO.jpeg",
+    "alt": "GREEN LOTUS RAKHI COMBO",
+    "price": "₹ 120"
+  },
+  {
+    "id": "MOP LUMBA COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP LUMBA COMBO.jpeg",
+    "alt": "MOP LUMBA COMBO",
+    "price": "₹ 180"
+  },
+  {
+    "id": "CUSTOM NAME RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/CUSTOM NAME RAKHI.jpeg",
+    "alt": "CUSTOM NAME RAKHI",
+    "price": "₹ 100"
+  },
+  {
+    "id": "EVIL EYE CHARM RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE CHARM RAKHI.jpeg",
+    "alt": "EVIL EYE CHARM RAKHI",
+    "price": "₹ 60"
+  },
+  {
+    "id": "MOP RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 2.jpeg",
+    "alt": "MOP RAKHI",
+    "price": "₹ 100"
+  },
+  {
+    "id": "PASTEL BLUE PAAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PASTEL BLUE PAAN RAKHI.jpeg",
+    "alt": "PASTEL BLUE PAAN RAKHI",
+    "price": "₹ 110"
+  },
+  {
+    "id": "EVIL EYE BHABHI RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
+    "alt": "EVIL EYE BHABHI RAKHI",
+    "price": "₹ 60"
+  },
+  {
+    "id": "MOP RAKHI COMBO",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOP RAKHI COMBO.jpeg",
+    "alt": "MOP RAKHI COMBO",
+    "price": "₹ 140"
+  },
+  {
     "id": "DESERT WEAVE",
     "categoryId": "braided-elegance",
     "url": "/images/braided-elegance/DESERT WEAVE.jpeg",
@@ -250,7 +313,7 @@
     "categoryId": "bracelets",
     "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
     "alt": "EVIL EYE BHABHI RAKHI",
-    "price": ""
+    "price": "₹ 60"
   },
   {
     "id": "PUNJABI RAKHI",

@@ -54,10 +54,22 @@
     "alt": "CHAND RAKHI"
   },
   {
+    "id": "CUSTOM NAME RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/CUSTOM NAME RAKHI.jpeg",
+    "alt": "CUSTOM NAME RAKHI"
+  },
+  {
     "id": "EVIL EYE BRACELET",
     "categoryId": "rakhis",
     "url": "/images/rakhis/EVIL EYE BRACELET.jpg",
     "alt": "EVIL EYE BRACELET"
+  },
+  {
+    "id": "EVIL EYE CHARM RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/EVIL EYE CHARM RAKHI.jpeg",
+    "alt": "EVIL EYE CHARM RAKHI"
   },
   {
     "id": "EVIL EYE RAKHI",
@@ -132,6 +144,12 @@
     "alt": "MOP RAKHI 1"
   },
   {
+    "id": "MOP RAKHI 2",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/MOP RAKHI 2.jpeg",
+    "alt": "MOP RAKHI 2"
+  },
+  {
     "id": "MOP RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/MOP RAKHI.jpg",
@@ -166,6 +184,12 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/PANCHRANG RAKHI.jpeg",
     "alt": "PANCHRANG RAKHI"
+  },
+  {
+    "id": "PASTEL BLUE PAAN RAKHI",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/PASTEL BLUE PAAN RAKHI.jpeg",
+    "alt": "PASTEL BLUE PAAN RAKHI"
   },
   {
     "id": "PASTEL PINK RAKHI",
