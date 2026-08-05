@@ -1,5 +1,40 @@
 [
   {
+    "id": "RUDRAKSHA RAKHI BRACELET",
+    "categoryId": "rakhis",
+    "url": "/images/rakhis/RUDRAKSHA RAKHI BRACELET.jpeg",
+    "alt": "RUDRAKSHA RAKHI BRACELET",
+    "price": "₹ 100"
+  },
+  {
+    "id": "RUDRAKSHA RAKHI BRACELET",
+    "categoryId": "bracelets",
+    "url": "/images/bracelets/RUDRAKSHA RAKHI BRACELET.jpeg",
+    "alt": "RUDRAKSHA RAKHI BRACELET",
+    "price": "₹ 100"
+  },
+  {
+    "id": "LUMBA STYLE COUPLE RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/LUMBA STYLE COUPLE RAKHI.jpeg",
+    "alt": "LUMBA STYLE COUPLE RAKHI",
+    "price": "₹ 120"
+  },
+  {
+    "id": "MOTHER OF PEARL COUPLE RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/MOTHER OF PEARL COUPLE RAKHI.jpeg",
+    "alt": "MOTHER OF PEARL COUPLE RAKHI",
+    "price": "₹ 150"
+  },
+  {
+    "id": "ROYAL COUPLE RAKHI",
+    "categoryId": "couple-rakhis",
+    "url": "/images/couple-rakhis/ROYAL COUPLE RAKHI.jpeg",
+    "alt": "ROYAL COUPLE RAKHI",
+    "price": "₹ 180"
+  },
+  {
     "id": "OM RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/OM RAKHI.jpeg",
@@ -18,7 +53,8 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/PANCHRANG RAKHI.jpeg",
     "alt": "PANCHRANG RAKHI",
-    "price": "₹ 30"
+    "price": "₹ 30",
+    "isOutOfStock": true
   },
   {
     "id": "MAHARANI RAKHI",
@@ -88,14 +124,16 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/RUDRAKSHA RAKHI.jpeg",
     "alt": "RUDRAKSHA RAKHI",
-    "price": "₹ 25"
+    "price": "₹ 25",
+    "isOutOfStock": true
   },
   {
     "id": "MOP RANI RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/MOP RANI RAKHI.jpeg",
     "alt": "MOP RANI RAKHI",
-    "price": "₹ 60"
+    "price": "₹ 60",
+    "isOutOfStock": true
   },
   {
     "id": "RED KUNDAN RAKHI",
@@ -137,7 +175,8 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP RAKHI.jpeg",
     "alt": "MOP RAKHI",
-    "price": "₹ 160"
+    "price": "₹ 160",
+    "isOutOfStock": true
   },
   {
     "id": "TRADITIONAL RAKHI SET",
@@ -228,7 +267,8 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/EVIL EYE CHARM RAKHI.jpeg",
     "alt": "EVIL EYE CHARM RAKHI",
-    "price": "₹ 60"
+    "price": "₹ 60",
+    "isOutOfStock": true
   },
   {
     "id": "MOP RAKHI",
@@ -249,14 +289,16 @@
     "categoryId": "rakhis",
     "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
     "alt": "EVIL EYE BHABHI RAKHI",
-    "price": "₹ 60"
+    "price": "₹ 60",
+    "isOutOfStock": true
   },
   {
     "id": "MOP RAKHI COMBO",
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/MOP RAKHI COMBO.jpeg",
     "alt": "MOP RAKHI COMBO",
-    "price": "₹ 140"
+    "price": "₹ 140",
+    "isOutOfStock": true
   },
   {
     "id": "DESERT WEAVE",
@@ -313,7 +355,8 @@
     "categoryId": "bracelets",
     "url": "/images/bracelets/EVIL EYE BHABHI RAKHI.jpeg",
     "alt": "EVIL EYE BHABHI RAKHI",
-    "price": "₹ 60"
+    "price": "₹ 60",
+    "isOutOfStock": true
   },
   {
     "id": "PUNJABI RAKHI",
@@ -341,14 +384,16 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/RUDRAKSHA DIAMOND RAKHI.jpeg",
     "alt": "RUDRAKSHA DIAMOND RAKHI",
-    "price": "₹ 25"
+    "price": "₹ 25",
+    "isOutOfStock": true
   },
   {
     "id": "BINDI IMITATION RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/BINDI IMITATION RAKHI.jpeg",
     "alt": "BINDI IMITATION RAKHI",
-    "price": "₹ 60"
+    "price": "₹ 60",
+    "isOutOfStock": true
   },
   {
     "id": "BLUE STONE DROP RAKHI",
@@ -390,14 +435,16 @@
     "categoryId": "rakhis",
     "url": "/images/rakhis/MINION BRACELET.jpg",
     "alt": "MINION BRACELET",
-    "price": "₹ 100"
+    "price": "₹ 100",
+    "isOutOfStock": true
   },
   {
     "id": "MOP EVIL EYE RAKHI",
     "categoryId": "rakhis",
     "url": "/images/rakhis/MOP EVIL EYE RAKHI.jpg",
     "alt": "MOP EVIL EYE RAKHI",
-    "price": "₹ 40"
+    "price": "₹ 40",
+    "isOutOfStock": true
   },
   {
     "id": "MOP RAKHI",
@@ -502,7 +549,8 @@
     "categoryId": "bracelets",
     "url": "/images/bracelets/MINION BRACELET.jpg",
     "alt": "MINION BRACELET",
-    "price": "₹ 100"
+    "price": "₹ 100",
+    "isOutOfStock": true
   },
   {
     "id": "MS CHARMS BRACELET",
@@ -628,7 +676,8 @@
     "categoryId": "couple-rakhis",
     "url": "/images/couple-rakhis/RAJWADI RAKHI COMBO.jpg",
     "alt": "RAJWADI RAKHI COMBO",
-    "price": "₹ 130"
+    "price": "₹ 130",
+    "isOutOfStock": true
   },
   {
     "id": "RUDRAKSHA RAKHI COMBO",
